@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>녹음 테스트 · Mic test</title>
+<style>
+:root{--bg:#FAF7F2;--card:#fff;--line:#E6DCCF;--ink:#2B2420;--mut:#6B5F56;--y:#F28C28;--red:#D9473A;--ok:#2F7D4F}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",sans-serif}
+main{max-width:560px;margin:0 auto;padding:calc(24px + env(safe-area-inset-top)) 20px calc(40px + env(safe-area-inset-bottom))}
+h1{font-size:28px;margin:0 0 6px}
+p{margin:0 0 18px;color:var(--mut)}
+button,.btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:62px;border-radius:16px;border:0;font:inherit;font-weight:700;font-size:18px;cursor:pointer;margin-bottom:12px;text-decoration:none}
+#rec{background:var(--y);color:#2B1700}
+#rec.on{background:var(--red);color:#fff}
+.sec{background:var(--card);border:1.5px solid var(--line);color:var(--ink)}
+button:disabled{opacity:.4}
+audio{width:100%;margin:6px 0 14px}
+ul{list-style:none;padding:0;margin:18px 0 0;font-size:14px;color:var(--mut)}
+li{padding:6px 0;border-top:1px solid var(--line)}
+b.ok{color:var(--ok)}b.no{color:var(--red)}
+#msg{min-height:24px;font-size:15px;color:var(--red);margin:0 0 12px}
+</style>
+</head>
+<body>
+<main>
+<h1>녹음 테스트</h1>
+<p>Mic test · 버튼을 눌러 3초쯤 말한 뒤 다시 누르세요.<br>Tap, say something for a few seconds, tap again.</p>
+<button id="rec">● 녹음 시작 · Record</button>
+<div id="msg"></div>
+<audio id="play" controls hidden></audio>
+<button id="save" class="sec" disabled>저장하기 · Save file</button>
+<button id="share" class="sec" disabled>보내기 · Share (WhatsApp, Mail)</button>
+<ul id="info"></ul>
+</main>
+<script>
+{
+const $ = id => document.getElementById(id);
+const recBtn = $('rec'), msg = $('msg'), play = $('play'), saveBtn = $('save'), shareBtn = $('share');
+let mr = null, chunks = [], blob = null, t0 = 0, iv = 0, file = null;
+const ext = t => /mp4|m4a|aac/.test(t) ? 'm4a' : /ogg/.test(t) ? 'ogg' : 'webm';
+const row = (k, v) => '<li>' + k + ': <b class="' + (v ? 'ok' : 'no') + '">' + (v ? 'OK' : 'NO') + '</b></li>';
+function info(extra){
+  const md = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+  $('info').innerHTML = row('https (secure)', window.isSecureContext) + row('microphone API', md) + row('MediaRecorder', !!window.MediaRecorder)
+    + row('share files', !!(navigator.canShare && window.File && navigator.canShare({files:[new File(['x'], 'a.m4a', {type:'audio/mp4'})]})))
+    + (extra ? '<li>' + extra + '</li>' : '') + '<li style="word-break:break-all">' + navigator.userAgent + '</li>';
+}
+info();
+recBtn.addEventListener('click', async () => {
+  msg.textContent = '';
+  if (mr && mr.state === 'recording') { mr.stop(); return; }
+  let stream;
+  try { stream = await navigator.mediaDevices.getUserMedia({audio: true}); }
+  catch (e) { msg.textContent = '마이크를 쓸 수 없어요 (' + e.name + '). 메신저 안에서 열었다면 Safari/Chrome으로 다시 열어 보세요.'; return; }
+  try { mr = new MediaRecorder(stream); } catch (e) { msg.textContent = 'MediaRecorder error: ' + e.name; stream.getTracks().forEach(t => t.stop()); return; }
+  chunks = [];
+  mr.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+  mr.onstop = () => {
+    stream.getTracks().forEach(t => t.stop()); clearInterval(iv);
+    const type = (mr.mimeType || 'audio/mp4').split(';')[0];
+    blob = new Blob(chunks, {type});
+    file = new File([blob], 'mic-test.' + ext(type), {type});
+    play.src = URL.createObjectURL(blob); play.hidden = false;
+    saveBtn.disabled = false; shareBtn.disabled = false;
+    recBtn.classList.remove('on'); recBtn.textContent = '● 다시 녹음 · Record again';
+    info('recorded: ' + type + ', ' + Math.round(blob.size / 1024) + ' KB');
+  };
+  mr.start(); t0 = Date.now(); recBtn.classList.add('on');
+  const tick = () => { recBtn.textContent = '■ 멈추기 · Stop  ' + Math.floor((Date.now() - t0) / 1000) + 's'; };
+  tick(); iv = setInterval(tick, 250);
+});
+saveBtn.addEventListener('click', () => {
+  if (!blob) return;
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = file.name;
+  document.body.appendChild(a); a.click(); a.remove();
+});
+shareBtn.addEventListener('click', async () => {
+  if (!file) return;
+  if (navigator.canShare && navigator.canShare({files: [file]})) {
+    try { await navigator.share({files: [file], title: 'Mic test'}); } catch (e) { if (e.name !== 'AbortError') msg.textContent = 'Share error: ' + e.name; }
+  } else { msg.textContent = '이 기기는 바로 보내기가 안 돼요. "저장하기"로 저장한 뒤 보내 주세요.'; }
+});
+}
+</script>
+</body>
+</html>
