@@ -1,0 +1,914 @@
+{
+ "id": "01-weather",
+ "num": {
+  "en": "Lesson 1",
+  "ko": "1과"
+ },
+ "title": {
+  "en": "Today's weather",
+  "ko": "오늘의 날씨"
+ },
+ "level": "A1",
+ "voice": "Danbi",
+ "model": "eleven_v4",
+ "focus": {
+  "en": "Linking (연음)",
+  "ko": "연음 (받침 이어 읽기)"
+ },
+ "audio": "audio/01-weather.mp3",
+ "text": "오늘 아침에는 구름이 많이 끼었어요. 점심을 먹은 후에는 비가 내리고 쌀쌀했어요. 저녁에는 안개도 끼어서 운전이 어려웠어요. 하지만 밤에는 비가 그쳤어요.",
+ "words": [
+  {
+   "t": "오늘",
+   "s": 0.0,
+   "e": 0.24,
+   "r": "oneul"
+  },
+  {
+   "t": "아침에는",
+   "s": 0.32,
+   "e": 1.04,
+   "p": "아치메는",
+   "tags": [
+    "연음"
+   ],
+   "r": "achimeneun"
+  },
+  {
+   "t": "구름이",
+   "s": 1.2,
+   "e": 1.52,
+   "p": "구르미",
+   "tags": [
+    "연음"
+   ],
+   "r": "gureumi",
+   "f": 1
+  },
+  {
+   "t": "많이",
+   "s": 1.64,
+   "e": 1.84,
+   "p": "마니",
+   "tags": [
+    "ㅎ 탈락",
+    "연음"
+   ],
+   "r": "mani"
+  },
+  {
+   "t": "끼었어요.",
+   "s": 1.88,
+   "e": 2.48,
+   "p": "끼어써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "kkieosseoyo"
+  },
+  {
+   "t": "점심을",
+   "s": 3.2,
+   "e": 3.52,
+   "p": "점시믈",
+   "tags": [
+    "연음"
+   ],
+   "r": "jeomsimeul"
+  },
+  {
+   "t": "먹은",
+   "s": 3.64,
+   "e": 3.84,
+   "p": "머근",
+   "tags": [
+    "연음"
+   ],
+   "r": "meogeun"
+  },
+  {
+   "t": "후에는",
+   "s": 3.92,
+   "e": 4.48,
+   "r": "hueneun"
+  },
+  {
+   "t": "비가",
+   "s": 4.56,
+   "e": 4.8,
+   "r": "biga",
+   "f": 1
+  },
+  {
+   "t": "내리고",
+   "s": 4.88,
+   "e": 5.36,
+   "r": "naerigo"
+  },
+  {
+   "t": "쌀쌀했어요.",
+   "s": 5.44,
+   "e": 6.14,
+   "p": "쌀쌀해써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "ssalssalhaesseoyo"
+  },
+  {
+   "t": "저녁에는",
+   "s": 6.96,
+   "e": 7.52,
+   "p": "저녀게는",
+   "tags": [
+    "연음"
+   ],
+   "r": "jeonyeogeneun"
+  },
+  {
+   "t": "안개도",
+   "s": 7.68,
+   "e": 8.08,
+   "r": "angaedo",
+   "f": 1
+  },
+  {
+   "t": "끼어서",
+   "s": 8.12,
+   "e": 8.64,
+   "r": "kkieoseo"
+  },
+  {
+   "t": "운전이",
+   "s": 8.72,
+   "e": 9.04,
+   "p": "운저니",
+   "tags": [
+    "연음"
+   ],
+   "r": "unjeoni"
+  },
+  {
+   "t": "어려웠어요.",
+   "s": 9.12,
+   "e": 9.81,
+   "p": "어려워써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "eoryeowosseoyo"
+  },
+  {
+   "t": "하지만",
+   "s": 10.56,
+   "e": 11.04,
+   "r": "hajiman"
+  },
+  {
+   "t": "밤에는",
+   "s": 11.16,
+   "e": 11.52,
+   "p": "바메는",
+   "tags": [
+    "연음"
+   ],
+   "r": "bameneun"
+  },
+  {
+   "t": "비가",
+   "s": 11.6,
+   "e": 11.76,
+   "r": "biga"
+  },
+  {
+   "t": "그쳤어요.",
+   "s": 11.92,
+   "e": 12.48,
+   "p": "그처써요",
+   "tags": [
+    "연음",
+    "쳐→[처]"
+   ],
+   "r": "geucheosseoyo",
+   "f": 1
+  }
+ ],
+ "segs": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "tone": "→",
+   "pause": "|",
+   "t": [
+    0,
+    1.12
+   ]
+  },
+  {
+   "w": [
+    2,
+    4
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    1.14,
+    2.58
+   ]
+  },
+  {
+   "w": [
+    5,
+    7
+   ],
+   "tone": "→",
+   "pause": "|",
+   "t": [
+    3.14,
+    4.52
+   ]
+  },
+  {
+   "w": [
+    8,
+    9
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    4.52,
+    5.4
+   ]
+  },
+  {
+   "w": [
+    10,
+    10
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    5.4,
+    6.24
+   ]
+  },
+  {
+   "w": [
+    11,
+    13
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    6.9,
+    8.68
+   ]
+  },
+  {
+   "w": [
+    14,
+    15
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    8.68,
+    9.91
+   ]
+  },
+  {
+   "w": [
+    16,
+    16
+   ],
+   "tone": "→",
+   "pause": "|",
+   "t": [
+    10.5,
+    11.1
+   ]
+  },
+  {
+   "w": [
+    17,
+    19
+   ],
+   "tone": "↘",
+   "pause": "",
+   "t": [
+    11.1,
+    12.58
+   ]
+  }
+ ],
+ "paras": [
+  {
+   "id": "a",
+   "key": "A",
+   "title": {
+    "en": "Morning and afternoon",
+    "ko": "아침과 점심"
+   },
+   "segs": [
+    0,
+    4
+   ],
+   "chunks": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "tr": {
+    "en": "This morning it was very cloudy. After lunch it rained and it was chilly.",
+    "ko": "This morning it was very cloudy. After lunch it rained and it was chilly."
+   },
+   "items": [
+    [
+     "쉼",
+     0,
+     "@p",
+     {
+      "en": "A short break after the time phrase 오늘 아침에는. Then say the rest in one breath.",
+      "ko": "때를 나타내는 말 \"오늘 아침에는\" 뒤에서 살짝 쉬고, 나머지는 한 호흡에 말해요."
+     }
+    ],
+    [
+     "발음 변화",
+     0,
+     1,
+     {
+      "en": "Linking: the final ㅁ of 침 moves to the next vowel → [아치메는]. No stop between 침 and 에.",
+      "ko": "받침 ㅁ이 뒤 모음으로 넘어가요 → [아치메는]. \"침\"과 \"에\" 사이에서 끊지 않아요."
+     }
+    ],
+    [
+     "발음 변화",
+     1,
+     2,
+     {
+      "en": "ㅁ + 이 → [미]: say [구르미] smoothly, not 구름-이.",
+      "ko": "ㅁ + 이 → [미]: \"구름-이\"로 끊지 말고 [구르미]로 이어서."
+     }
+    ],
+    [
+     "소리",
+     1,
+     2,
+     {
+      "en": "ㅜ then ㅡ: round your lips for 구, then flat lips (like a small smile) for 르.",
+      "ko": "ㅜ는 입술을 둥글게, ㅡ는 입술을 옆으로 펴서."
+     }
+    ],
+    [
+     "발음 변화",
+     1,
+     3,
+     {
+      "en": "ㄶ before a vowel: ㅎ is silent and ㄴ links → [마니].",
+      "ko": "ㄶ 뒤에 모음이 오면 ㅎ은 소리 나지 않고 ㄴ이 넘어가요 → [마니]."
+     }
+    ],
+    [
+     "소리",
+     1,
+     4,
+     {
+      "en": "ㄲ is tense: tighten your throat, no puff of air. 끼 (tense) ≠ 기 (plain) ≠ 키 (with air).",
+      "ko": "ㄲ은 된소리: 목에 힘을 주고 바람은 내보내지 않아요. 끼 ≠ 기 ≠ 키."
+     }
+    ],
+    [
+     "발음 변화",
+     1,
+     4,
+     {
+      "en": "ㅆ links to 어 → [끼어써요]. [끼여써요] is also correct.",
+      "ko": "ㅆ이 뒤 \"어\"로 넘어가요 → [끼어써요]. [끼여써요]도 표준 발음이에요."
+     }
+    ],
+    [
+     "강조",
+     1,
+     2,
+     {
+      "en": "New information: clouds. Say 구름이 a little clearer. Korean has no word stress — bold only marks new information.",
+      "ko": "새 정보는 \"구름\". 조금 더 또렷하게. 한국어에는 단어 강세가 없어서, 굵은 글씨는 새 정보만 표시해요."
+     }
+    ],
+    [
+     "억양",
+     1,
+     "@t",
+     {
+      "en": "Statement ending -어요: the voice falls at the end ↘.",
+      "ko": "평서문 \"-어요\"는 끝을 내려요 ↘."
+     }
+    ],
+    [
+     "발음 변화",
+     2,
+     5,
+     {
+      "en": "ㅁ + 을 → [믈]: [점시믈].",
+      "ko": "ㅁ + 을 → [믈]: [점시믈]."
+     }
+    ],
+    [
+     "발음 변화",
+     2,
+     6,
+     {
+      "en": "ㄱ + 은 → [근]: [머근].",
+      "ko": "ㄱ + 은 → [근]: [머근]."
+     }
+    ],
+    [
+     "쉼",
+     2,
+     "@p",
+     {
+      "en": "A short break after 먹은 후에는 (\"after eating lunch\") — it sets the time.",
+      "ko": "\"먹은 후에는\" 뒤에서 살짝 쉬어요. 때를 먼저 알려 주는 말이에요."
+     }
+    ],
+    [
+     "강조",
+     3,
+     8,
+     {
+      "en": "New information: rain. Say 비가 clearly.",
+      "ko": "새 정보는 \"비\". 또렷하게."
+     }
+    ],
+    [
+     "억양",
+     3,
+     "@t",
+     {
+      "en": "-고 joins two facts: keep the voice level → and go straight into 쌀쌀했어요.",
+      "ko": "\"-고\"는 두 내용을 이어요. 평평하게 → 유지하고 바로 \"쌀쌀했어요\"로."
+     }
+    ],
+    [
+     "소리",
+     4,
+     10,
+     {
+      "en": "ㅆ is tense, not ㅅ: 쌀쌀 (chilly) vs 살살 (gently).",
+      "ko": "ㅆ은 된소리: 쌀쌀(춥다) ≠ 살살(부드럽게)."
+     }
+    ],
+    [
+     "발음 변화",
+     4,
+     10,
+     {
+      "en": "ㅆ links to 어 → [쌀쌀해써요].",
+      "ko": "ㅆ이 뒤 \"어\"로 넘어가요 → [쌀쌀해써요]."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "en": "오늘 아침에는 | …",
+      "ko": "오늘 아침에는 | …"
+     },
+     {
+      "en": "Time first, then the weather. A small break after the time phrase.",
+      "ko": "때를 먼저 말하고 날씨를 말해요. 때를 나타내는 말 뒤에서 살짝 쉬어요."
+     }
+    ],
+    [
+     {
+      "en": "Linking everywhere",
+      "ko": "연음이 가득"
+     },
+     {
+      "en": "[아치메는], [구르미], [마니], [점시믈], [머근] — never stop between a final consonant and the next vowel.",
+      "ko": "[아치메는], [구르미], [마니], [점시믈], [머근] — 받침과 뒤 모음 사이에서 끊지 않아요."
+     }
+    ],
+    [
+     {
+      "en": "비가 내리고 → 쌀쌀했어요",
+      "ko": "비가 내리고 → 쌀쌀했어요"
+     },
+     {
+      "en": "-고 joins two facts. Say them as one flow, then fall at the end.",
+      "ko": "\"-고\"로 두 내용을 이어요. 한 흐름으로 말하고 끝에서 내려요."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "구름이 끼다",
+     "tag": {
+      "en": "Weather",
+      "ko": "날씨"
+     },
+     "mean": {
+      "en": "to be cloudy (clouds gather)",
+      "ko": "구름이 생겨 흐리다"
+     },
+     "note": {
+      "en": "Past: 구름이 끼었어요 / 꼈어요.",
+      "ko": "과거: 끼었어요 / 꼈어요."
+     },
+     "s": 1
+    },
+    {
+     "de": "비가 내리다",
+     "tag": {
+      "en": "Weather",
+      "ko": "날씨"
+     },
+     "mean": {
+      "en": "to rain (rain falls)",
+      "ko": "비가 오다"
+     },
+     "note": {
+      "en": "In everyday speech, 비가 오다 is more common.",
+      "ko": "말할 때는 \"비가 오다\"를 더 많이 써요."
+     },
+     "s": 3
+    },
+    {
+     "de": "쌀쌀하다",
+     "tag": {
+      "en": "Weather",
+      "ko": "날씨"
+     },
+     "mean": {
+      "en": "chilly, a bit cold",
+      "ko": "조금 춥다"
+     },
+     "note": {
+      "en": "For cool mornings and evenings, spring and autumn.",
+      "ko": "선선한 아침·저녁, 봄·가을에 자주 써요."
+     },
+     "s": 4
+    },
+    {
+     "de": "-(으)ㄴ 후에",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "after (doing)",
+      "ko": "~한 다음에"
+     },
+     "note": {
+      "en": "먹다 → 먹은 후에 = after eating.",
+      "ko": "먹다 → 먹은 후에."
+     },
+     "s": 2
+    },
+    {
+     "de": "아침에는",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "in the morning (as for the morning)",
+      "ko": "아침에 + 는"
+     },
+     "note": {
+      "en": "에 = time, 는 = topic: 아침에는 …, 점심 후에는 …",
+      "ko": "에 = 때, 는 = 주제·대조: 아침에는 …, 점심 후에는 …"
+     },
+     "s": 0
+    }
+   ],
+   "checks": [
+    {
+     "en": "I linked final consonants to the next vowel: [아치메는], [구르미], [점시믈], [머근].",
+     "ko": "받침을 뒤 모음에 이어 읽었다: [아치메는], [구르미], [점시믈], [머근]."
+    },
+    {
+     "en": "많이 sounded like [마니] — no h.",
+     "ko": "\"많이\"를 ㅎ 없이 [마니]로 읽었다."
+    },
+    {
+     "en": "끼었어요 and 쌀쌀했어요 started with a tense ㄲ / ㅆ (no puff of air).",
+     "ko": "\"끼었어요\", \"쌀쌀했어요\"를 된소리 ㄲ/ㅆ으로 시작했다."
+    },
+    {
+     "en": "비가 내리고 → 쌀쌀했어요 flowed as one, and the end fell ↘.",
+     "ko": "\"비가 내리고 → 쌀쌀했어요\"를 한 흐름으로 말하고 끝을 내렸다."
+    }
+   ]
+  },
+  {
+   "id": "b",
+   "key": "B",
+   "title": {
+    "en": "Evening and night",
+    "ko": "저녁과 밤"
+   },
+   "segs": [
+    5,
+    8
+   ],
+   "chunks": [
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "tr": {
+    "en": "In the evening it was foggy too, so driving was difficult. But at night the rain stopped.",
+    "ko": "In the evening it was foggy too, so driving was difficult. But at night the rain stopped."
+   },
+   "items": [
+    [
+     "발음 변화",
+     5,
+     11,
+     {
+      "en": "ㄱ + 에 → [게]: [저녀게는].",
+      "ko": "ㄱ + 에 → [게]: [저녀게는]."
+     }
+    ],
+    [
+     "소리",
+     5,
+     11,
+     {
+      "en": "ㅓ in 저 and 녁: open mouth, lips not round — not 조 / 뇩.",
+      "ko": "\"저\", \"녁\"의 ㅓ는 입을 벌리고 입술은 둥글게 하지 않아요. 조·뇩이 아니에요."
+     }
+    ],
+    [
+     "소리",
+     5,
+     12,
+     {
+      "en": "Keep ㄴ in 안: the tongue tip touches behind the teeth. Not [앙개].",
+      "ko": "\"안\"의 ㄴ을 지켜요. 혀끝을 윗니 뒤에. [앙개]가 아니에요."
+     }
+    ],
+    [
+     "강조",
+     5,
+     12,
+     {
+      "en": "도 = also: fog came too, on top of the rain. Highlight 안개도.",
+      "ko": "\"도\" = 비에 더해 안개까지. \"안개도\"를 강조해요."
+     }
+    ],
+    [
+     "억양",
+     5,
+     "@t",
+     {
+      "en": "-어서 gives the reason: keep the voice level →, then say the result.",
+      "ko": "\"-어서\"는 이유예요. 평평하게 → 이어서 결과를 말해요."
+     }
+    ],
+    [
+     "발음 변화",
+     6,
+     14,
+     {
+      "en": "ㄴ + 이 → [니]: [운저니].",
+      "ko": "ㄴ + 이 → [니]: [운저니]."
+     }
+    ],
+    [
+     "발음 변화",
+     6,
+     15,
+     {
+      "en": "ㅆ links to 어 → [어려워써요].",
+      "ko": "ㅆ이 뒤 \"어\"로 넘어가요 → [어려워써요]."
+     }
+    ],
+    [
+     "억양",
+     6,
+     "@t",
+     {
+      "en": "Statement: fall at the end ↘.",
+      "ko": "평서문: 끝을 내려요 ↘."
+     }
+    ],
+    [
+     "쉼",
+     7,
+     "@p",
+     {
+      "en": "하지만 (but): a short break after it — the story turns.",
+      "ko": "\"하지만\" 뒤에서 짧게 쉬어요. 이야기가 바뀌는 곳이에요."
+     }
+    ],
+    [
+     "발음 변화",
+     8,
+     17,
+     {
+      "en": "ㅁ + 에 → [메]: [바메는].",
+      "ko": "ㅁ + 에 → [메]: [바메는]."
+     }
+    ],
+    [
+     "발음 변화",
+     8,
+     19,
+     {
+      "en": "ㅊ + ㅕ is said [처]: [그처써요]. Then ㅆ links to 어.",
+      "ko": "ㅊ 뒤의 ㅕ는 [ㅓ]로 소리 나요: [그처써요]. 그리고 ㅆ이 넘어가요."
+     }
+    ],
+    [
+     "강조",
+     8,
+     19,
+     {
+      "en": "New, good news: the rain stopped. Say 그쳤어요 clearly.",
+      "ko": "새 소식: 비가 그쳤어요. 또렷하게."
+     }
+    ],
+    [
+     "억양",
+     8,
+     "@t",
+     {
+      "en": "End of the story: a calm fall ↘.",
+      "ko": "이야기의 끝: 차분하게 내려요 ↘."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "en": "안개도 끼어서 → 운전이 어려웠어요",
+      "ko": "안개도 끼어서 → 운전이 어려웠어요"
+     },
+     {
+      "en": "Reason (-어서), then result: level first, then fall.",
+      "ko": "이유(-어서) 다음에 결과: 먼저 평평하게, 끝에서 내려요."
+     }
+    ],
+    [
+     {
+      "en": "하지만 |",
+      "ko": "하지만 |"
+     },
+     {
+      "en": "A short pause makes the turn clear.",
+      "ko": "짧게 쉬어야 이야기가 바뀌는 게 들려요."
+     }
+    ],
+    [
+     {
+      "en": "그쳤어요 ↘",
+      "ko": "그쳤어요 ↘"
+     },
+     {
+      "en": "The day ends calmly: a soft falling ending.",
+      "ko": "하루가 차분하게 끝나요. 부드럽게 내려요."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "안개가 끼다",
+     "tag": {
+      "en": "Weather",
+      "ko": "날씨"
+     },
+     "mean": {
+      "en": "to be foggy",
+      "ko": "안개가 생기다"
+     },
+     "note": {
+      "en": "도 = also: 안개도 끼었어요 = it was foggy too.",
+      "ko": "도 = ~까지: 안개도 끼었어요."
+     },
+     "s": 5
+    },
+    {
+     "de": "-아서 / -어서",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "because, so",
+      "ko": "이유"
+     },
+     "note": {
+      "en": "끼다 → 끼어서: 안개가 끼어서 운전이 어려웠어요.",
+      "ko": "끼다 → 끼어서."
+     },
+     "s": 5
+    },
+    {
+     "de": "어렵다 → 어려웠어요",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "was difficult (ㅂ irregular)",
+      "ko": "ㅂ 불규칙"
+     },
+     "note": {
+      "en": "어렵다 → 어려워요 → 어려웠어요.",
+      "ko": "어렵다 → 어려워요 → 어려웠어요."
+     },
+     "s": 6
+    },
+    {
+     "de": "하지만",
+     "tag": {
+      "en": "Word",
+      "ko": "어휘"
+     },
+     "mean": {
+      "en": "but, however (at the start of a sentence)",
+      "ko": "그렇지만"
+     },
+     "note": {
+      "en": "Pause a little after it.",
+      "ko": "뒤에서 살짝 쉬어요."
+     },
+     "s": 7
+    },
+    {
+     "de": "비가 그치다",
+     "tag": {
+      "en": "Weather",
+      "ko": "날씨"
+     },
+     "mean": {
+      "en": "the rain stops",
+      "ko": "비가 멈추다"
+     },
+     "note": {
+      "en": "그치다 → 그쳤어요 [그처써요].",
+      "ko": "그치다 → 그쳤어요 [그처써요]."
+     },
+     "s": 8
+    }
+   ],
+   "checks": [
+    {
+     "en": "[저녀게는], [운저니], [바메는] were linked smoothly.",
+     "ko": "[저녀게는], [운저니], [바메는]을 부드럽게 이어 읽었다."
+    },
+    {
+     "en": "안개 kept ㄴ — not [앙개].",
+     "ko": "\"안개\"의 ㄴ을 지켰다 ([앙개] 아님)."
+    },
+    {
+     "en": "I paused shortly after 하지만.",
+     "ko": "\"하지만\" 뒤에서 짧게 쉬었다."
+    },
+    {
+     "en": "그쳤어요 sounded like [그처써요] and fell at the end.",
+     "ko": "\"그쳤어요\"를 [그처써요]로 읽고 끝을 내렸다."
+    }
+   ]
+  }
+ ],
+ "fullChecks": [
+  {
+   "en": "I read each sentence without stopping in the middle.",
+   "ko": "문장 중간에서 멈추지 않고 읽었다."
+  },
+  {
+   "en": "All the linking (연음) words sounded connected.",
+   "ko": "연음 단어들이 모두 이어져 들렸다."
+  },
+  {
+   "en": "I paused a little between the sentences.",
+   "ko": "문장과 문장 사이에서 조금 쉬었다."
+  },
+  {
+   "en": "My recording is about as long as the model (about 13 seconds).",
+   "ko": "내 녹음 길이가 원어민과 비슷했다 (약 13초)."
+  }
+ ]
+}
