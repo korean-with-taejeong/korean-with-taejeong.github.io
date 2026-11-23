@@ -29,10 +29,12 @@ def build(lesson_path):
 
 def build_index():
     lessons = [json.load(open(p, encoding='utf-8')) for p in sorted(glob.glob(os.path.join(ROOT, 'lessons', '*.json')))]
+    # subtitle in the lesson's explanation language (lesson["xl"], default English)
+    xl = lambda l, k: l[k].get(l.get('xl', 'en')) or l[k].get('en', '')
     cards = '\n'.join(
         f'<a class="card" href="lessons/{html.escape(l["id"])}.html"><span class="num">{html.escape(l["num"]["ko"])}</span>'
         f'<span class="body"><span class="ko">{html.escape(l["title"]["ko"])}</span>'
-        f'<span class="en">{html.escape(l["num"]["en"])} · {html.escape(l["title"]["en"])} · {html.escape(l["level"])}</span></span>'
+        f'<span class="en">{html.escape(xl(l, "num"))} · {html.escape(xl(l, "title"))} · {html.escape(l["level"])}</span></span>'
         f'<span class="go" aria-hidden="true">›</span></a>' for l in lessons)
     page = INDEX.replace('<!--CARDS-->', cards)
     open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(page)
@@ -68,9 +70,9 @@ footer{font-size:13px;color:var(--mut);margin-top:26px}
 <main>
 <div class="ov">Korean with Taejeong · 태정쌤 한국어</div>
 <h1>수업 목록<br><span style="font-size:.55em;color:var(--mut);font-weight:500">All lessons</span></h1>
-<p>Bookmark this page. Every new lesson appears here.<br>이 페이지를 즐겨찾기해 두세요. 새 수업이 여기에 추가돼요.</p>
+<p>Bookmark this page. Every new lesson appears here.<br>Speichere diese Seite als Lesezeichen. Jede neue Lektion erscheint hier.<br>이 페이지를 즐겨찾기해 두세요. 새 수업이 여기에 추가돼요.</p>
 <!--CARDS-->
-<footer>Recordings stay on your device. 녹음은 여러분 기기에만 저장돼요.</footer>
+<footer>Recordings stay on your device. Aufnahmen bleiben auf deinem Gerät. 녹음은 여러분 기기에만 저장돼요.</footer>
 </main>
 </body>
 </html>

@@ -1,0 +1,842 @@
+{
+ "id": "02-my-room",
+ "num": {
+  "en": "Lesson 2",
+  "de": "Lektion 2",
+  "ko": "2과"
+ },
+ "title": {
+  "en": "My room",
+  "de": "Mein Zimmer",
+  "ko": "제 방"
+ },
+ "level": "A1",
+ "xl": "de",
+ "voice": "Danbi",
+ "model": "eleven_v4",
+ "focus": {
+  "de": "이에요 ↔ 있어요 · 위에 / 옆에 · gespannte Laute",
+  "ko": "이에요와 있어요 · 위에/옆에 · 경음화"
+ },
+ "audio": "audio/02-my-room.mp3",
+ "text": "제 방이에요. 옷장, 선반하고 침대가 있어요. 제 책상 위에는 펠릭스 사진이 있어요. 제 옷장 옆에는 펠릭스가 서 있어요.",
+ "words": [
+  {
+   "t": "제",
+   "s": 0.0,
+   "e": 0.08,
+   "r": "je"
+  },
+  {
+   "t": "방이에요.",
+   "s": 0.16,
+   "e": 1.0,
+   "r": "bangieyo"
+  },
+  {
+   "t": "옷장,",
+   "s": 1.44,
+   "e": 2.2,
+   "p": "옫짱",
+   "tags": [
+    "받침 대표음",
+    "경음화"
+   ],
+   "r": "otjjang",
+   "f": 1
+  },
+  {
+   "t": "선반하고",
+   "s": 2.28,
+   "e": 2.96,
+   "r": "seonbanhago",
+   "f": 1
+  },
+  {
+   "t": "침대가",
+   "s": 3.04,
+   "e": 3.44,
+   "r": "chimdaega",
+   "f": 1
+  },
+  {
+   "t": "있어요.",
+   "s": 3.52,
+   "e": 3.84,
+   "p": "이써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "isseoyo"
+  },
+  {
+   "t": "제",
+   "s": 4.56,
+   "e": 4.64,
+   "r": "je"
+  },
+  {
+   "t": "책상",
+   "s": 4.76,
+   "e": 5.04,
+   "p": "책쌍",
+   "tags": [
+    "경음화"
+   ],
+   "r": "chaekssang"
+  },
+  {
+   "t": "위에는",
+   "s": 5.12,
+   "e": 5.6,
+   "r": "wieneun",
+   "f": 1
+  },
+  {
+   "t": "펠릭스",
+   "s": 5.68,
+   "e": 6.08,
+   "r": "pellikseu"
+  },
+  {
+   "t": "사진이",
+   "s": 6.16,
+   "e": 6.48,
+   "p": "사지니",
+   "tags": [
+    "연음"
+   ],
+   "r": "sajini",
+   "f": 1
+  },
+  {
+   "t": "있어요.",
+   "s": 6.56,
+   "e": 6.88,
+   "p": "이써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "isseoyo"
+  },
+  {
+   "t": "제",
+   "s": 7.6,
+   "e": 7.76,
+   "r": "je"
+  },
+  {
+   "t": "옷장",
+   "s": 7.88,
+   "e": 8.08,
+   "p": "옫짱",
+   "tags": [
+    "받침 대표음",
+    "경음화"
+   ],
+   "r": "otjjang"
+  },
+  {
+   "t": "옆에는",
+   "s": 8.16,
+   "e": 8.8,
+   "p": "여페는",
+   "tags": [
+    "연음"
+   ],
+   "r": "yeopeneun",
+   "f": 1
+  },
+  {
+   "t": "펠릭스가",
+   "s": 8.88,
+   "e": 9.44,
+   "r": "pellikseuga"
+  },
+  {
+   "t": "서",
+   "s": 9.48,
+   "e": 9.52,
+   "r": "seo",
+   "f": 1
+  },
+  {
+   "t": "있어요.",
+   "s": 9.64,
+   "e": 10.05,
+   "p": "이써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "isseoyo"
+  }
+ ],
+ "segs": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    0.0,
+    1.1
+   ]
+  },
+  {
+   "w": [
+    2,
+    2
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    1.36,
+    2.22
+   ]
+  },
+  {
+   "w": [
+    3,
+    5
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    2.22,
+    3.94
+   ]
+  },
+  {
+   "w": [
+    6,
+    8
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    4.48,
+    5.64
+   ]
+  },
+  {
+   "w": [
+    9,
+    11
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    5.64,
+    7.0
+   ]
+  },
+  {
+   "w": [
+    12,
+    14
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    7.5,
+    8.83
+   ]
+  },
+  {
+   "w": [
+    15,
+    17
+   ],
+   "tone": "↘",
+   "pause": "",
+   "t": [
+    8.83,
+    10.2
+   ]
+  }
+ ],
+ "paras": [
+  {
+   "id": "a",
+   "key": "A",
+   "title": {
+    "de": "Das ist mein Zimmer",
+    "ko": "제 방이에요"
+   },
+   "segs": [
+    0,
+    2
+   ],
+   "chunks": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "tr": {
+    "de": "Das ist mein Zimmer. Es gibt einen Kleiderschrank, ein Regal und ein Bett.",
+    "ko": "Das ist mein Zimmer. Es gibt einen Kleiderschrank, ein Regal und ein Bett."
+   },
+   "items": [
+    [
+     "소리",
+     0,
+     1,
+     {
+      "de": "ㅇ am Silbenende (받침) klingt wie „ng“ in „Ring“ – nicht wie „n“. 방 (Zimmer) ≠ 반 (Hälfte, Klasse).",
+      "ko": "받침 ㅇ은 \"ng\" 소리예요. ㄴ이 아니에요. 방 ≠ 반."
+     }
+    ],
+    [
+     "억양",
+     0,
+     "@t",
+     {
+      "de": "Aussagesatz mit -이에요 (sein): Am Ende fällt die Stimme ↘.",
+      "ko": "평서문 \"-이에요\"는 끝을 내려요 ↘."
+     }
+    ],
+    [
+     "쉼",
+     0,
+     "@p",
+     {
+      "de": "Nach dem ersten Satz eine lange Pause (||) – im Audio etwa 0,4 Sekunden Stille.",
+      "ko": "첫 문장 뒤에서 길게 쉬어요 (||). 음성에서 약 0.4초."
+     }
+    ],
+    [
+     "발음 변화",
+     1,
+     2,
+     {
+      "de": "ㅅ am Silbenende klingt wie [ㄷ] (받침 대표음): Die Zunge stoppt kurz, kein s. Danach wird ㅈ gespannt [ㅉ] (경음화) → [옫짱]. Im Audio hört man in der Mitte eine kleine Stille.",
+      "ko": "받침 ㅅ은 [ㄷ]로 소리 나고(받침 대표음), 뒤의 ㅈ은 된소리 [ㅉ]가 돼요(경음화) → [옫짱]. 음성에서 가운데가 잠깐 막혀요."
+     }
+    ],
+    [
+     "강조",
+     1,
+     2,
+     {
+      "de": "Neue Information: die drei Möbel 옷장, 선반, 침대. Jedes Wort deutlich und gleich stark. Koreanisch hat keine Wortbetonung – fett markiert nur neue Information.",
+      "ko": "새 정보: 옷장, 선반, 침대. 세 단어를 똑같이 또렷하게. 한국어에는 단어 강세가 없어서, 굵은 글씨는 새 정보만 표시해요."
+     }
+    ],
+    [
+     "억양",
+     1,
+     "@t",
+     {
+      "de": "Die Aufzählung geht weiter: Die Stimme bleibt oben →. Es gibt hier keine echte Pause – 장 wird nur etwas länger gezogen.",
+      "ko": "나열이 이어져요. 끝을 내리지 말고 → 유지해요. 실제로 쉬지는 않고 \"장\"을 조금 길게 끌어요."
+     }
+    ],
+    [
+     "소리",
+     2,
+     4,
+     {
+      "de": "대 mit einfachem ㄷ: weich, fast wie „d“, ohne Luftstoß. Nicht 때 (gespannt) und nicht 태 (behaucht).",
+      "ko": "\"대\"는 예사소리 ㄷ. 된소리 \"때\"도, 거센소리 \"태\"도 아니에요."
+     }
+    ],
+    [
+     "발음 변화",
+     2,
+     5,
+     {
+      "de": "ㅆ rutscht zur nächsten Silbe (연음) → [이써요]. ㅆ ist ein gespanntes, scharfes s.",
+      "ko": "ㅆ이 뒤 \"어\"로 넘어가요(연음) → [이써요]. ㅆ은 된소리예요."
+     }
+    ],
+    [
+     "억양",
+     2,
+     "@t",
+     {
+      "de": "Erst am Satzende fällt die Stimme ↘.",
+      "ko": "문장 끝에서야 내려요 ↘."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "de": "제 방이에요 ↘ ||",
+      "ko": "제 방이에요 ↘ ||"
+     },
+     {
+      "de": "Erst sagen, WAS es ist (이에요 = sein). Dann eine Pause, dann aufzählen, was es GIBT (있어요).",
+      "ko": "먼저 무엇인지 말하고(이에요), 쉬고, 무엇이 있는지 말해요(있어요)."
+     }
+    ],
+    [
+     {
+      "de": "옷장 → 선반하고 침대가 있어요 ↘",
+      "ko": "옷장 → 선반하고 침대가 있어요 ↘"
+     },
+     {
+      "de": "Eine Aufzählung in einem Atemzug: Nach 옷장 bleibt die Stimme oben, erst am Satzende fällt sie.",
+      "ko": "한 호흡으로 나열해요. \"옷장\" 뒤는 높게 유지하고, 문장 끝에서 내려요."
+     }
+    ],
+    [
+     {
+      "de": "[옫짱]",
+      "ko": "[옫짱]"
+     },
+     {
+      "de": "Das ㅅ wird nicht als s gesprochen. Zunge kurz anhalten – dann ein gespanntes [짱].",
+      "ko": "ㅅ을 s로 읽지 않아요. 혀로 잠깐 막았다가 된소리 [짱]."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "N이에요 / N예요",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "ist / sind (sein) – sagt, WAS etwas ist",
+      "ko": "무엇인지 말할 때"
+     },
+     "note": {
+      "de": "Nach Konsonant 이에요: 방이에요. Nach Vokal 예요: 의자예요 (Das ist ein Stuhl).",
+      "ko": "받침이 있으면 \"이에요\"(방이에요), 없으면 \"예요\"(의자예요)."
+     },
+     "s": 0
+    },
+    {
+     "de": "N이/가 있어요",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "es gibt / ich habe – sagt, DASS etwas da ist",
+      "ko": "무엇이 있는지 말할 때"
+     },
+     "note": {
+      "de": "방이에요 = Das ist ein Zimmer. 침대가 있어요 = Es gibt ein Bett. Gegenteil: 없어요 (gibt es nicht).",
+      "ko": "방이에요 ≠ 침대가 있어요. 반대말: 없어요."
+     },
+     "s": 2
+    },
+    {
+     "de": "제 = 저의",
+     "tag": {
+      "de": "Wort",
+      "ko": "어휘"
+     },
+     "mean": {
+      "de": "mein (höflich)",
+      "ko": "\"저의\"를 줄인 말"
+     },
+     "note": {
+      "de": "Beim Sprechen sagt man fast immer 제: 제 방, 제 책상, 제 옷장.",
+      "ko": "말할 때는 거의 \"제\"를 써요: 제 방, 제 책상, 제 옷장."
+     },
+     "s": 0
+    },
+    {
+     "de": "N하고 N",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "und (zwischen zwei Nomen)",
+      "ko": "명사와 명사를 이어요"
+     },
+     "note": {
+      "de": "Gesprochen meist 하고. Geschrieben auch 와/과: 선반과 침대.",
+      "ko": "말할 때는 \"하고\", 글에서는 \"와/과\"도 써요: 선반과 침대."
+     },
+     "s": 2
+    },
+    {
+     "de": "옷장 · 선반 · 침대",
+     "tag": {
+      "de": "Wortschatz",
+      "ko": "어휘"
+     },
+     "mean": {
+      "de": "Kleiderschrank · Regal · Bett",
+      "ko": "옷을 넣는 장 · 물건을 올려놓는 판 · 잠자는 곳"
+     },
+     "note": {
+      "de": "옷 (Kleidung) + 장 (Schrank) = 옷장.",
+      "ko": "옷 + 장 = 옷장."
+     },
+     "s": 2
+    }
+   ],
+   "checks": [
+    {
+     "de": "옷장 klang wie [옫짱]: kein s, kurz gestoppt, dann ein gespanntes 짱.",
+     "ko": "\"옷장\"을 [옫짱]으로 읽었다: s 소리 없이 잠깐 막았다가 된소리."
+    },
+    {
+     "de": "방 endete mit „ng“ – nicht mit „n“ (방 ≠ 반).",
+     "ko": "\"방\"을 ng로 끝냈다 (반이 아님)."
+    },
+    {
+     "de": "옷장 → 선반하고 침대가 있어요: in einem Fluss, und erst am Ende ist die Stimme gefallen ↘.",
+     "ko": "\"옷장 → 선반하고 침대가 있어요\"를 이어서 말하고 끝에서 내렸다."
+    },
+    {
+     "de": "Ich kenne den Unterschied: 방이에요 (das ist …) und 침대가 있어요 (es gibt …).",
+     "ko": "\"방이에요\"와 \"침대가 있어요\"의 차이를 안다."
+    }
+   ]
+  },
+  {
+   "id": "b",
+   "key": "B",
+   "title": {
+    "de": "Was ist wo?",
+    "ko": "어디에 뭐가 있어요?"
+   },
+   "segs": [
+    3,
+    6
+   ],
+   "chunks": [
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "tr": {
+    "de": "Auf meinem Schreibtisch ist ein Foto von Felix. Neben meinem Kleiderschrank steht Felix.",
+    "ko": "Auf meinem Schreibtisch ist ein Foto von Felix. Neben meinem Kleiderschrank steht Felix."
+   },
+   "items": [
+    [
+     "발음 변화",
+     3,
+     7,
+     {
+      "de": "Nach ㄱ am Silbenende wird ㅅ gespannt [ㅆ] (경음화) → [책쌍]. Das ㄱ nicht „explodieren“ lassen – die Zunge stoppt nur.",
+      "ko": "받침 ㄱ 뒤에서 ㅅ이 된소리 [ㅆ]가 돼요(경음화) → [책쌍]. 받침 ㄱ은 터뜨리지 않아요."
+     }
+    ],
+    [
+     "소리",
+     3,
+     8,
+     {
+      "de": "위 ist ein Laut: schnell von „u“ zu „i“ – wie französisch „oui“.",
+      "ko": "ㅟ는 \"우\"에서 \"이\"로 빠르게, 한 소리로."
+     }
+    ],
+    [
+     "강조",
+     3,
+     8,
+     {
+      "de": "는 stellt zwei Orte gegenüber: AUF dem Schreibtisch … / NEBEN dem Schrank … Darum beide Orte deutlich sagen.",
+      "ko": "\"는\"은 대조예요: 책상 위에는 … / 옷장 옆에는 … 두 장소를 또렷하게."
+     }
+    ],
+    [
+     "억양",
+     3,
+     "@t",
+     {
+      "de": "Bei 에는 geht die Stimme kurz hoch und bleibt in der Mitte → – nicht ganz nach unten wie am Satzende. Keine Pause: Die kleine Stille vor 펠 ist nur das ㅍ.",
+      "ko": "\"에는\"에서 살짝 올라갔다가 중간에 머물러요 → (문장 끝처럼 내려가지 않아요). 쉬지 않아요. \"펠\" 앞의 짧은 막힘은 ㅍ 소리예요."
+     }
+    ],
+    [
+     "소리",
+     4,
+     9,
+     {
+      "de": "Felix auf Koreanisch: 펠릭스, drei Silben. Es gibt kein f – man nimmt ㅍ mit Luftstoß. 스 hat ㅡ: kurz, Lippen breit, nicht rund.",
+      "ko": "한국어에는 f가 없어서 ㅍ(거센소리)으로 읽어요. \"스\"의 ㅡ는 입술을 둥글게 하지 않아요."
+     }
+    ],
+    [
+     "발음 변화",
+     4,
+     10,
+     {
+      "de": "ㄴ rutscht zu 이 (연음) → [사지니].",
+      "ko": "ㄴ이 \"이\"로 넘어가요(연음) → [사지니]."
+     }
+    ],
+    [
+     "강조",
+     4,
+     10,
+     {
+      "de": "Neue Information: ein Foto (사진). Klar sagen.",
+      "ko": "새 정보: \"사진\". 또렷하게."
+     }
+    ],
+    [
+     "억양",
+     4,
+     "@t",
+     {
+      "de": "Satzende: Die Stimme fällt ↘.",
+      "ko": "문장 끝: 내려요 ↘."
+     }
+    ],
+    [
+     "쉼",
+     4,
+     "@p",
+     {
+      "de": "Lange Pause (||) zwischen den beiden Sätzen – im Audio etwa 0,7 Sekunden.",
+      "ko": "두 문장 사이에서 길게 쉬어요 (||). 음성에서 약 0.7초."
+     }
+    ],
+    [
+     "발음 변화",
+     5,
+     14,
+     {
+      "de": "ㅍ rutscht zu 에 (연음) → [여페는]. ㅍ mit Luftstoß.",
+      "ko": "ㅍ이 \"에\"로 넘어가요(연음) → [여페는]."
+     }
+    ],
+    [
+     "강조",
+     5,
+     14,
+     {
+      "de": "Gegensatz zu 위에는: jetzt NEBEN dem Schrank.",
+      "ko": "\"위에는\"과 대조: 이번에는 \"옆\"."
+     }
+    ],
+    [
+     "억양",
+     5,
+     "@t",
+     {
+      "de": "Wie bei 위에는: kurz hoch, dann in der Mitte bleiben → und direkt weiter zu 펠릭스가.",
+      "ko": "\"위에는\"처럼: 살짝 올라갔다가 → 바로 \"펠릭스가\"로."
+     }
+    ],
+    [
+     "소리",
+     6,
+     16,
+     {
+      "de": "서 hat ㅓ: Mund offen wie bei „o“, aber die Lippen NICHT runden. 서 (stehen) ≠ 소 (Kuh).",
+      "ko": "ㅓ는 입을 벌리고 입술은 둥글게 하지 않아요. 서 ≠ 소."
+     }
+    ],
+    [
+     "강조",
+     6,
+     16,
+     {
+      "de": "Neue Information: Hier ist nicht das Foto, sondern Felix selbst – er STEHT dort. 서 있어요 als einen Block sagen.",
+      "ko": "새 정보: 사진이 아니라 펠릭스가 직접 \"서 있어요\". 한 덩어리로."
+     }
+    ],
+    [
+     "발음 변화",
+     6,
+     17,
+     {
+      "de": "서 있어요 ohne Pause: [서 이써요]. ㅆ rutscht zu 어 (연음).",
+      "ko": "\"서 있어요\"는 쉬지 않고 [서 이써요]. ㅆ이 넘어가요(연음)."
+     }
+    ],
+    [
+     "억양",
+     6,
+     "@t",
+     {
+      "de": "Ende des Textes: ruhig fallen ↘.",
+      "ko": "글의 끝: 차분하게 내려요 ↘."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "de": "책상 위에는 … / 옷장 옆에는 …",
+      "ko": "책상 위에는 … / 옷장 옆에는 …"
+     },
+     {
+      "de": "Erst der Ort, dann was dort ist. 는 stellt die zwei Orte gegenüber.",
+      "ko": "먼저 장소, 그다음 거기에 있는 것. \"는\"이 두 장소를 대조해요."
+     }
+    ],
+    [
+     {
+      "de": "사진이 있어요 ↔ 서 있어요",
+      "ko": "사진이 있어요 ↔ 서 있어요"
+     },
+     {
+      "de": "있어요 = es ist da. 서 있어요 = steht (Felix selbst). Beide Male fällt die Stimme am Ende ↘.",
+      "ko": "\"있어요\" = 있다. \"서 있어요\" = 서 있는 상태. 둘 다 끝을 내려요 ↘."
+     }
+    ],
+    [
+     {
+      "de": "[책쌍] · [사지니] · [여페는]",
+      "ko": "[책쌍] · [사지니] · [여페는]"
+     },
+     {
+      "de": "Gespannter Laut nach ㄱ, und Endkonsonanten rutschen zum nächsten Vokal.",
+      "ko": "ㄱ 뒤 된소리, 그리고 받침은 뒤 모음으로 넘어가요."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "N 위에",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "auf N (oben auf)",
+      "ko": "N의 위쪽에"
+     },
+     "note": {
+      "de": "위 = oben. 책상 위에 = auf dem Schreibtisch. Der Gegenstand steht VOR 위.",
+      "ko": "위치 말은 명사 뒤에 와요: 책상 위에."
+     },
+     "s": 3
+    },
+    {
+     "de": "N 옆에",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "neben N",
+      "ko": "N의 옆쪽에"
+     },
+     "note": {
+      "de": "옆 = Seite. 옷장 옆에 = neben dem Kleiderschrank. Genauso: 앞에 (vor), 뒤에 (hinter), 밑에 (unter).",
+      "ko": "같은 방식: 앞에, 뒤에, 밑에."
+     },
+     "s": 5
+    },
+    {
+     "de": "N에는 … 있어요",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "an diesem Ort ist … (im Gegensatz zu einem anderen Ort)",
+      "ko": "장소 + 에 + 는(대조) … 있어요"
+     },
+     "note": {
+      "de": "에 = Ort, 는 = Thema / Gegensatz. Den Ort an den Satzanfang stellen: 책상 위에는 사진이 있어요.",
+      "ko": "에 = 장소, 는 = 주제·대조. 장소를 먼저 말해요."
+     },
+     "s": 3
+    },
+    {
+     "de": "서 있어요 (-아/어 있다)",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "steht (Zustand: bleibt stehen)",
+      "ko": "서다 + -어 있다: 선 상태"
+     },
+     "note": {
+      "de": "서다 (aufstehen) → 서 있어요 (steht). Erst einmal als feste Wendung lernen.",
+      "ko": "A1에서는 한 덩어리로 익혀요."
+     },
+     "s": 6
+    },
+    {
+     "de": "책상 · 사진",
+     "tag": {
+      "de": "Wortschatz",
+      "ko": "어휘"
+     },
+     "mean": {
+      "de": "Schreibtisch · Foto",
+      "ko": "공부하는 상 · 찍은 그림"
+     },
+     "note": {
+      "de": "N 사진 = Foto von N: 펠릭스 사진 = ein Foto von Felix.",
+      "ko": "N 사진 = N을 찍은 사진."
+     },
+     "s": 4
+    }
+   ],
+   "checks": [
+    {
+     "de": "책상 klang wie [책쌍] – mit gespanntem ㅆ.",
+     "ko": "\"책상\"을 [책쌍]으로 읽었다."
+    },
+    {
+     "de": "[사지니], [여페는], [이써요] habe ich ohne Stopp verbunden.",
+     "ko": "[사지니], [여페는], [이써요]를 끊지 않고 이어 읽었다."
+    },
+    {
+     "de": "위에는 und 옆에는 klar gesagt und danach ohne Pause weiter →.",
+     "ko": "\"위에는\", \"옆에는\"을 또렷하게 말하고 쉬지 않고 이었다 →."
+    },
+    {
+     "de": "서 mit offenem ㅓ, Lippen nicht rund – nicht wie 소.",
+     "ko": "\"서\"를 ㅓ로 읽었다 (소가 아님)."
+    }
+   ]
+  }
+ ],
+ "fullChecks": [
+  {
+   "de": "Ich habe jeden Satz ohne Stopp in der Mitte gelesen.",
+   "ko": "문장 중간에서 멈추지 않고 읽었다."
+  },
+  {
+   "de": "Die gespannten Laute in [옫짱] und [책쌍] waren hörbar.",
+   "ko": "[옫짱], [책쌍]의 된소리가 들렸다."
+  },
+  {
+   "de": "Zwischen den Sätzen habe ich eine Pause gemacht – innerhalb der Sätze nicht.",
+   "ko": "문장 사이에서는 쉬고, 문장 안에서는 쉬지 않았다."
+  },
+  {
+   "de": "Meine Aufnahme ist ungefähr so lang wie das Vorbild (etwa 10 Sekunden).",
+   "ko": "내 녹음 길이가 원어민과 비슷했다 (약 10초)."
+  }
+ ]
+}

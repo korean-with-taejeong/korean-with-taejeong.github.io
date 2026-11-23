@@ -5,7 +5,7 @@ Students open: https://korean-with-taejeong.github.io/
 
 ## Structure
 - `index.html` — lesson list (generated)
-- `lessons/<id>.json` — lesson content: words with timings, pronunciation [ ], tags, segments, parts, notes (English / Korean)
+- `lessons/<id>.json` — lesson content: words with timings, pronunciation [ ], tags, segments, parts, notes (explanation language / Korean). `"xl": "de"` = German explanations and German app text; without it, English.
 - `lessons/<id>.html` — the app students open (generated, audio inside)
 - `audio/<id>.mp3` — model audio from ElevenLabs (eleven_v4, with timestamps)
 - `template/practice-template.html` — the app template
