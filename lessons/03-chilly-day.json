@@ -1,0 +1,818 @@
+{
+ "id": "03-chilly-day",
+ "num": {
+  "en": "Lesson 3",
+  "de": "Lektion 3",
+  "ko": "3과"
+ },
+ "title": {
+  "en": "A chilly day",
+  "de": "Ein kühler Tag",
+  "ko": "쌀쌀한 하루"
+ },
+ "level": "A1",
+ "xl": "de",
+ "voice": "Danbi",
+ "model": "eleven_v4",
+ "focus": {
+  "de": "Vergangenheit -았/⁠었어요 · 하지만 / -지만 · gespannte Laute",
+  "ko": "과거형 -았/⁠었어요 · 하지만/-지만 · 된소리"
+ },
+ "audio": "audio/03-chilly-day.mp3",
+ "text": "오늘 오전에는 날씨가 맑았어요. 하지만 정말 쌀쌀했어요. 오후에는 햇빛이 조금 있었지만 여전히 추웠어요.",
+ "words": [
+  {
+   "t": "오늘",
+   "s": 0.0,
+   "e": 0.32,
+   "r": "oneul"
+  },
+  {
+   "t": "오전에는",
+   "s": 0.4,
+   "e": 1.12,
+   "p": "오저네는",
+   "tags": [
+    "연음"
+   ],
+   "r": "ojeoneneun",
+   "f": 1
+  },
+  {
+   "t": "날씨가",
+   "s": 1.28,
+   "e": 1.6,
+   "r": "nalssiga"
+  },
+  {
+   "t": "맑았어요.",
+   "s": 1.76,
+   "e": 2.42,
+   "p": "말가써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "malgasseoyo",
+   "f": 1
+  },
+  {
+   "t": "하지만",
+   "s": 2.88,
+   "e": 3.44,
+   "r": "hajiman"
+  },
+  {
+   "t": "정말",
+   "s": 3.6,
+   "e": 3.92,
+   "r": "jeongmal"
+  },
+  {
+   "t": "쌀쌀했어요.",
+   "s": 4.08,
+   "e": 4.78,
+   "p": "쌀쌀해써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "ssalssalhaesseoyo",
+   "f": 1
+  },
+  {
+   "t": "오후에는",
+   "s": 5.52,
+   "e": 6.08,
+   "r": "ohueneun",
+   "f": 1
+  },
+  {
+   "t": "햇빛이",
+   "s": 6.16,
+   "e": 6.56,
+   "p": "해삐치",
+   "tags": [
+    "경음화",
+    "연음"
+   ],
+   "r": "haeppichi",
+   "f": 1
+  },
+  {
+   "t": "조금",
+   "s": 6.64,
+   "e": 6.8,
+   "r": "jogeum"
+  },
+  {
+   "t": "있었지만",
+   "s": 6.88,
+   "e": 7.54,
+   "p": "이썯찌만",
+   "tags": [
+    "연음",
+    "받침 대표음",
+    "경음화"
+   ],
+   "r": "isseotjjiman"
+  },
+  {
+   "t": "여전히",
+   "s": 7.84,
+   "e": 8.24,
+   "r": "yeojeonhi"
+  },
+  {
+   "t": "추웠어요.",
+   "s": 8.32,
+   "e": 8.88,
+   "p": "추워써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "chuwosseoyo",
+   "f": 1
+  }
+ ],
+ "segs": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    0.0,
+    1.2
+   ]
+  },
+  {
+   "w": [
+    2,
+    3
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    1.2,
+    2.5
+   ]
+  },
+  {
+   "w": [
+    4,
+    4
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    2.8,
+    3.52
+   ]
+  },
+  {
+   "w": [
+    5,
+    6
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    3.52,
+    4.86
+   ]
+  },
+  {
+   "w": [
+    7,
+    7
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    5.34,
+    6.12
+   ]
+  },
+  {
+   "w": [
+    8,
+    10
+   ],
+   "tone": "→",
+   "pause": "|",
+   "t": [
+    6.12,
+    7.62
+   ]
+  },
+  {
+   "w": [
+    11,
+    12
+   ],
+   "tone": "↘",
+   "pause": "",
+   "t": [
+    7.7,
+    9.0
+   ]
+  }
+ ],
+ "paras": [
+  {
+   "id": "a",
+   "key": "A",
+   "title": {
+    "de": "Der Vormittag",
+    "ko": "오전"
+   },
+   "segs": [
+    0,
+    3
+   ],
+   "chunks": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "tr": {
+    "de": "Heute Vormittag war das Wetter klar. Aber es war wirklich kühl.",
+    "ko": "Heute Vormittag war das Wetter klar. Aber es war wirklich kühl."
+   },
+   "items": [
+    [
+     "발음 변화",
+     0,
+     1,
+     {
+      "de": "ㄴ rutscht zu 에 (연음) → [오저네는].",
+      "ko": "ㄴ이 \"에\"로 넘어가요(연음) → [오저네는]."
+     }
+    ],
+    [
+     "강조",
+     0,
+     1,
+     {
+      "de": "Mit 는 wird ein Gegensatz vorbereitet: am VORMITTAG … (später: am NACHMITTAG …). Koreanisch hat keine Wortbetonung – fett markiert nur neue Information und Gegensätze.",
+      "ko": "\"는\"으로 대조를 준비해요: 오전에는 … (뒤에서 오후에는 …). 한국어에는 단어 강세가 없어서, 굵은 글씨는 새 정보와 대조만 표시해요."
+     }
+    ],
+    [
+     "억양",
+     0,
+     "@t",
+     {
+      "de": "Kein Satzende: ohne Pause weiter zu 날씨가 →.",
+      "ko": "문장 끝이 아니에요. 쉬지 않고 \"날씨가\"로 →."
+     }
+    ],
+    [
+     "소리",
+     1,
+     2,
+     {
+      "de": "씨 mit ㅆ: gespannt, scharfes s, ohne Luftstoß. Mit einfachem ㅅ (날시) wäre es falsch.",
+      "ko": "\"씨\"는 된소리 ㅆ. \"시\"로 읽으면 안 돼요."
+     }
+    ],
+    [
+     "발음 변화",
+     1,
+     3,
+     {
+      "de": "맑 hat zwei Endkonsonanten (ㄺ). Vor einem Vokal bleibt ㄹ, und ㄱ rutscht zur nächsten Silbe – ㅆ auch (연음) → [말가써요].",
+      "ko": "겹받침 ㄺ: 모음 앞에서 ㄹ은 남고 ㄱ은 뒤로 넘어가요. ㅆ도 넘어가요(연음) → [말가써요]."
+     }
+    ],
+    [
+     "강조",
+     1,
+     3,
+     {
+      "de": "Neue Information: Es war klar (맑았어요).",
+      "ko": "새 정보: \"맑았어요\"."
+     }
+    ],
+    [
+     "억양",
+     1,
+     "@t",
+     {
+      "de": "Satzende: Die Stimme fällt ↘.",
+      "ko": "문장 끝: 내려요 ↘."
+     }
+    ],
+    [
+     "쉼",
+     1,
+     "@p",
+     {
+      "de": "Lange Pause (||) – im Audio etwa 0,4 Sekunden.",
+      "ko": "길게 쉬어요 (||). 음성에서 약 0.4초."
+     }
+    ],
+    [
+     "억양",
+     2,
+     "@t",
+     {
+      "de": "하지만 (aber) steht am Satzanfang. Danach keine Pause: gleich weiter →.",
+      "ko": "\"하지만\"은 문장 맨 앞. 뒤에서 쉬지 않고 바로 이어요 →."
+     }
+    ],
+    [
+     "소리",
+     3,
+     6,
+     {
+      "de": "쌀쌀: ㅆ ist gespannt – scharf, ohne Luftstoß, wie in 날씨.",
+      "ko": "\"쌀쌀\"의 ㅆ은 된소리예요. \"날씨\"처럼."
+     }
+    ],
+    [
+     "발음 변화",
+     3,
+     6,
+     {
+      "de": "ㅆ rutscht zu 어 (연음) → [쌀쌀해써요]. Das ㅎ in 했 hört man im Audio deutlich.",
+      "ko": "ㅆ이 \"어\"로 넘어가요(연음) → [쌀쌀해써요]. \"했\"의 ㅎ은 음성에서 또렷하게 들려요."
+     }
+    ],
+    [
+     "강조",
+     3,
+     6,
+     {
+      "de": "Gegensatz nach 하지만: klar – ABER kühl.",
+      "ko": "\"하지만\" 뒤의 대조: 맑았지만 \"쌀쌀했어요\"."
+     }
+    ],
+    [
+     "억양",
+     3,
+     "@t",
+     {
+      "de": "Satzende: Die Stimme fällt ↘.",
+      "ko": "문장 끝: 내려요 ↘."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "de": "오늘 오전에는 → 날씨가 맑았어요 ↘ ||",
+      "ko": "오늘 오전에는 → 날씨가 맑았어요 ↘ ||"
+     },
+     {
+      "de": "Erst die Zeit, dann wie das Wetter war. Am Satzende fällt die Stimme, dann eine Pause.",
+      "ko": "먼저 때, 그다음 날씨. 문장 끝에서 내리고 쉬어요."
+     }
+    ],
+    [
+     {
+      "de": "하지만 → 정말 쌀쌀했어요 ↘",
+      "ko": "하지만 → 정말 쌀쌀했어요 ↘"
+     },
+     {
+      "de": "하지만 (aber) leitet den Gegensatz ein: klar – aber kühl. Nach 하지만 kein Stopp.",
+      "ko": "\"하지만\"으로 대조: 맑았지만 쌀쌀했어요. \"하지만\" 뒤에서 멈추지 않아요."
+     }
+    ],
+    [
+     {
+      "de": "[말가써요]",
+      "ko": "[말가써요]"
+     },
+     {
+      "de": "Doppelter Endkonsonant ㄺ: ㄹ bleibt, ㄱ rutscht zum Vokal.",
+      "ko": "겹받침 ㄺ: ㄹ은 남고 ㄱ은 모음으로 넘어가요."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "-았/었어요",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "Vergangenheit: war, hatte …",
+      "ko": "과거"
+     },
+     "note": {
+      "de": "맑다 → 맑았어요 (nach ㅏ/ㅗ: 았). 쌀쌀하다 → 쌀쌀했어요 (하다 → 했어요). 있다 → 있었어요.",
+      "ko": "맑다 → 맑았어요, 쌀쌀하다 → 쌀쌀했어요, 있다 → 있었어요."
+     },
+     "s": 1
+    },
+    {
+     "de": "하지만",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "aber (am Satzanfang)",
+      "ko": "앞 문장과 반대되는 말을 이어요"
+     },
+     "note": {
+      "de": "Verbindet zwei Sätze: 날씨가 맑았어요. 하지만 쌀쌀했어요.",
+      "ko": "두 문장을 이어요: 맑았어요. 하지만 쌀쌀했어요."
+     },
+     "s": 2
+    },
+    {
+     "de": "Zeit + 에는",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "zu dieser Zeit (im Gegensatz zu einer anderen)",
+      "ko": "때 + 에 + 는(대조)"
+     },
+     "note": {
+      "de": "에 = wann, 는 = Thema / Gegensatz. 오늘 오전에는 = heute Vormittag.",
+      "ko": "에 = 때, 는 = 주제·대조. 오늘 오전에는 …"
+     },
+     "s": 0
+    },
+    {
+     "de": "날씨가 맑다",
+     "tag": {
+      "de": "Ausdruck",
+      "ko": "표현"
+     },
+     "mean": {
+      "de": "Das Wetter ist klar (ohne Wolken).",
+      "ko": "구름이 없고 화창하다"
+     },
+     "note": {
+      "de": "Gegenteil: 날씨가 흐리다 (bewölkt).",
+      "ko": "반대: 날씨가 흐리다."
+     },
+     "s": 1
+    },
+    {
+     "de": "정말 쌀쌀하다",
+     "tag": {
+      "de": "Wortschatz",
+      "ko": "어휘"
+     },
+     "mean": {
+      "de": "wirklich kühl, unangenehm frisch",
+      "ko": "꽤 춥게 느껴지다"
+     },
+     "note": {
+      "de": "쌀쌀하다 = kühl (typisch für Herbst und Frühling). Noch kälter: 춥다. 정말 = wirklich.",
+      "ko": "가을·봄에 자주 써요. 더 추우면 \"춥다\"."
+     },
+     "s": 3
+    }
+   ],
+   "checks": [
+    {
+     "de": "맑았어요 klang wie [말가써요] – das ㄱ ist zum Vokal gerutscht.",
+     "ko": "\"맑았어요\"를 [말가써요]로 읽었다."
+    },
+    {
+     "de": "날씨 und 쌀쌀 mit gespanntem ㅆ: scharf, ohne Luftstoß.",
+     "ko": "\"날씨\", \"쌀쌀\"을 된소리 ㅆ로 읽었다."
+    },
+    {
+     "de": "Nach 맑았어요 eine Pause, nach 하지만 keine.",
+     "ko": "\"맑았어요\" 뒤에서는 쉬고, \"하지만\" 뒤에서는 쉬지 않았다."
+    },
+    {
+     "de": "Beide Sätze enden fallend ↘.",
+     "ko": "두 문장 모두 끝을 내렸다 ↘."
+    }
+   ]
+  },
+  {
+   "id": "b",
+   "key": "B",
+   "title": {
+    "de": "Der Nachmittag",
+    "ko": "오후"
+   },
+   "segs": [
+    4,
+    6
+   ],
+   "chunks": [
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     6
+    ],
+    [
+     4,
+     5,
+     6
+    ]
+   ],
+   "tr": {
+    "de": "Am Nachmittag gab es ein bisschen Sonne, aber es war immer noch kalt.",
+    "ko": "Am Nachmittag gab es ein bisschen Sonne, aber es war immer noch kalt."
+   },
+   "items": [
+    [
+     "소리",
+     4,
+     7,
+     {
+      "de": "후: ㅎ zwischen Vokalen wird beim schnellen Sprechen schwach – im Audio ist es nur ein kurzer Hauch. Sag es ruhig deutlich: [오후에는].",
+      "ko": "ㅎ이 모음 사이에서 약해져서 음성에서는 짧게만 들려요. 또렷하게 [오후에는]이라고 해도 좋아요."
+     }
+    ],
+    [
+     "강조",
+     4,
+     7,
+     {
+      "de": "Gegensatz zu 오전에는: jetzt der NACHMITTAG.",
+      "ko": "\"오전에는\"과 대조: 이번에는 \"오후\"."
+     }
+    ],
+    [
+     "억양",
+     4,
+     "@t",
+     {
+      "de": "Wie bei 오전에는: kein Satzende, ohne Pause weiter →.",
+      "ko": "\"오전에는\"처럼 쉬지 않고 이어요 →."
+     }
+    ],
+    [
+     "발음 변화",
+     5,
+     8,
+     {
+      "de": "햇빛 klingt [해삗]: Das ㅅ in der Mitte (사이시옷) spricht man nicht als s, stattdessen wird ㅂ gespannt [ㅃ] (경음화). Vor 이 rutscht ㅊ weiter (연음) → [해삐치].",
+      "ko": "사이시옷 때문에 ㅂ이 된소리 [ㅃ](경음화), ㅊ은 \"이\"로 넘어가요(연음) → [해삐치]."
+     }
+    ],
+    [
+     "강조",
+     5,
+     8,
+     {
+      "de": "Neue Information: ein bisschen Sonne (햇빛).",
+      "ko": "새 정보: \"햇빛\"."
+     }
+    ],
+    [
+     "발음 변화",
+     5,
+     10,
+     {
+      "de": "있었지만 → [이썯찌만]: Das erste ㅆ rutscht zu 어 (연음). Das zweite ㅆ klingt vor ㅈ wie [ㄷ] (받침 대표음), und ㅈ wird gespannt [ㅉ] (경음화). Im Audio hörst du vor 찌 einen kurzen Stopp.",
+      "ko": "첫 ㅆ은 넘어가고(연음), 둘째 ㅆ은 [ㄷ](받침 대표음), ㅈ은 [ㅉ](경음화) → [이썯찌만]. \"찌\" 앞에서 잠깐 막혀요."
+     }
+    ],
+    [
+     "억양",
+     5,
+     "@t",
+     {
+      "de": "-지만 (aber) verbindet zwei Satzteile: Die Stimme bleibt oben →, der Satz ist noch nicht zu Ende.",
+      "ko": "\"-지만\"으로 이어져요. 끝을 내리지 않고 → 유지해요."
+     }
+    ],
+    [
+     "쉼",
+     5,
+     "@p",
+     {
+      "de": "Kurze Pause (|) nach -지만 – im Audio etwa 0,2 Sekunden. Hier wechselt die Richtung: Sonne → aber kalt.",
+      "ko": "\"-지만\" 뒤에서 짧게 쉬어요 (|). 음성에서 약 0.2초."
+     }
+    ],
+    [
+     "소리",
+     6,
+     11,
+     {
+      "de": "히 ist im Audio sehr kurz und fast nur gehaucht, weil gleich 추 kommt. Das ㅎ trotzdem leicht hörbar machen: [여전히].",
+      "ko": "\"히\"는 바로 \"추\"가 와서 아주 짧게 들려요. ㅎ을 살짝 들리게 [여전히]."
+     }
+    ],
+    [
+     "소리",
+     6,
+     12,
+     {
+      "de": "추 mit ㅊ: mit Luftstoß (behaucht). 주 – ohne Luftstoß – wäre ein anderer Laut.",
+      "ko": "\"추\"는 거센소리 ㅊ. \"주\"가 아니에요."
+     }
+    ],
+    [
+     "발음 변화",
+     6,
+     12,
+     {
+      "de": "ㅆ rutscht zu 어 (연음) → [추워써요].",
+      "ko": "ㅆ이 \"어\"로 넘어가요(연음) → [추워써요]."
+     }
+    ],
+    [
+     "강조",
+     6,
+     12,
+     {
+      "de": "Die Hauptaussage: Es war immer noch kalt.",
+      "ko": "중심 내용: 여전히 \"추웠어요\"."
+     }
+    ],
+    [
+     "억양",
+     6,
+     "@t",
+     {
+      "de": "Ende des Textes: Die Stimme fällt ↘.",
+      "ko": "글의 끝: 내려요 ↘."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "de": "오후에는 → 햇빛이 조금 있었지만 → | 여전히 추웠어요 ↘",
+      "ko": "오후에는 → 햇빛이 조금 있었지만 → | 여전히 추웠어요 ↘"
+     },
+     {
+      "de": "Ein langer Satz in zwei Teilen: bis -지만 bleibt die Stimme oben, dann eine kurze Pause, dann fällt der zweite Teil.",
+      "ko": "두 부분으로 된 긴 문장: \"-지만\"까지 높게, 짧게 쉬고, 뒷부분은 내려요."
+     }
+    ],
+    [
+     {
+      "de": "[해삐치] · [이썯찌만]",
+      "ko": "[해삐치] · [이썯찌만]"
+     },
+     {
+      "de": "Gespannte Laute: ㅃ in 햇빛, ㅉ in 있었지만. Kein s-Laut in der Mitte.",
+      "ko": "된소리: 햇빛의 ㅃ, 있었지만의 ㅉ. 가운데 s 소리가 없어요."
+     }
+    ],
+    [
+     {
+      "de": "오전에는 ↔ 오후에는",
+      "ko": "오전에는 ↔ 오후에는"
+     },
+     {
+      "de": "Mit 는 stellt man die zwei Tageszeiten gegenüber.",
+      "ko": "\"는\"으로 두 때를 대조해요."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "A/V-지만",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "…, aber … (in einem Satz)",
+      "ko": "앞과 반대되는 내용을 이어요"
+     },
+     "note": {
+      "de": "있었지만 = es gab …, aber … Vergleich: 하지만 steht am Satzanfang, -지만 hängt am Verb.",
+      "ko": "\"하지만\"은 문장 앞에, \"-지만\"은 동사 뒤에 붙어요."
+     },
+     "s": 5
+    },
+    {
+     "de": "여전히",
+     "tag": {
+      "de": "Wort",
+      "ko": "어휘"
+     },
+     "mean": {
+      "de": "immer noch, nach wie vor",
+      "ko": "전과 같이 그대로"
+     },
+     "note": {
+      "de": "햇빛이 있었지만 여전히 추웠어요 = Es gab Sonne, aber es war immer noch kalt.",
+      "ko": "햇빛이 있었지만 여전히 추웠어요."
+     },
+     "s": 6
+    },
+    {
+     "de": "춥다 → 추웠어요",
+     "tag": {
+      "de": "Grammatik",
+      "ko": "문법"
+     },
+     "mean": {
+      "de": "kalt sein → war kalt (ㅂ-unregelmäßig)",
+      "ko": "ㅂ 불규칙"
+     },
+     "note": {
+      "de": "ㅂ wird zu 우: 춥다 → 추워요 → 추웠어요. Genauso: 덥다 → 더웠어요 (war heiß).",
+      "ko": "춥다 → 추워요 → 추웠어요. 덥다 → 더웠어요."
+     },
+     "s": 6
+    },
+    {
+     "de": "햇빛이 있다",
+     "tag": {
+      "de": "Ausdruck",
+      "ko": "표현"
+     },
+     "mean": {
+      "de": "Die Sonne scheint (wörtlich: es gibt Sonnenlicht).",
+      "ko": "해가 비치다"
+     },
+     "note": {
+      "de": "햇빛 = Sonnenlicht (해 = Sonne, 빛 = Licht). 조금 = ein bisschen.",
+      "ko": "해 + 빛 = 햇빛. 조금 = 약간."
+     },
+     "s": 5
+    },
+    {
+     "de": "오전 · 오후",
+     "tag": {
+      "de": "Wortschatz",
+      "ko": "어휘"
+     },
+     "mean": {
+      "de": "Vormittag · Nachmittag",
+      "ko": "낮 12시 전 · 낮 12시 후"
+     },
+     "note": {
+      "de": "Auch bei Uhrzeiten: 오후 3시 = 15 Uhr.",
+      "ko": "시간 앞에도 써요: 오후 3시."
+     },
+     "s": 4
+    }
+   ],
+   "checks": [
+    {
+     "de": "햇빛이 klang wie [해삐치] – kein s in der Mitte.",
+     "ko": "\"햇빛이\"를 [해삐치]로 읽었다."
+    },
+    {
+     "de": "있었지만 mit kurzem Stopp vor [찌]: [이썯찌만].",
+     "ko": "\"있었지만\"을 [이썯찌만]으로 읽었다."
+    },
+    {
+     "de": "Bis -지만 blieb die Stimme oben, dann eine kurze Pause.",
+     "ko": "\"-지만\"까지 높게 유지하고 짧게 쉬었다."
+    },
+    {
+     "de": "추웠어요 mit Luftstoß bei 추 und am Ende fallend ↘.",
+     "ko": "\"추\"를 거센소리로, 끝은 내렸다 ↘."
+    }
+   ]
+  }
+ ],
+ "fullChecks": [
+  {
+   "de": "Alle Verben in der Vergangenheit: 맑았어요, 쌀쌀했어요, 있었지만, 추웠어요.",
+   "ko": "동사 네 개를 모두 과거형으로 읽었다."
+  },
+  {
+   "de": "Die gespannten Laute in 날씨, 쌀쌀, [해삐치], [이썯찌만] waren hörbar.",
+   "ko": "날씨, 쌀쌀, [해삐치], [이썯찌만]의 된소리가 들렸다."
+  },
+  {
+   "de": "Pausen nur nach 맑았어요, nach 쌀쌀했어요 und kurz nach 있었지만.",
+   "ko": "\"맑았어요\", \"쌀쌀했어요\" 뒤와 \"있었지만\" 뒤에서만 쉬었다."
+  },
+  {
+   "de": "Meine Aufnahme ist ungefähr so lang wie das Vorbild (etwa 9 Sekunden).",
+   "ko": "내 녹음 길이가 원어민과 비슷했다 (약 9초)."
+  }
+ ]
+}
