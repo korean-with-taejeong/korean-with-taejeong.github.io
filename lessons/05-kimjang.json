@@ -1,0 +1,1392 @@
+{
+ "id": "05-kimjang",
+ "num": {
+  "en": "Lesson 5",
+  "ko": "5과"
+ },
+ "title": {
+  "en": "Kimjang",
+  "ko": "김장"
+ },
+ "level": "B1",
+ "voice": "Danbi",
+ "model": "eleven_v4",
+ "focus": {
+  "en": "-는 것을 말해요 · -(으)ㄴ 후 · silent ㅎ (많이, 넣은)",
+  "ko": "-는 것을 말해요 · -(으)ㄴ 후 · ㅎ 탈락"
+ },
+ "audio": "audio/05-kimjang.mp3",
+ "text": "김장은 겨울 동안 먹을 김치를 한 번에 많이 만드는 것을 말해요. 예전에는 김장 김치를 항아리에 넣은 후 땅에 묻어 보관했어요. 그러면 발효도 잘되고 오래 보관할 수 있어요. 요즘은 김치냉장고에 넣어 보관해요. 자, 다 먹었으면 나가서 구경 좀 할까요?",
+ "words": [
+  {
+   "t": "김장은",
+   "s": 0.0,
+   "e": 0.72,
+   "r": "gimjangeun",
+   "f": 1
+  },
+  {
+   "t": "겨울",
+   "s": 0.88,
+   "e": 1.04,
+   "r": "gyeoul"
+  },
+  {
+   "t": "동안",
+   "s": 1.2,
+   "e": 1.36,
+   "r": "dongan"
+  },
+  {
+   "t": "먹을",
+   "s": 1.52,
+   "e": 1.68,
+   "p": "머글",
+   "tags": [
+    "연음"
+   ],
+   "r": "meogeul"
+  },
+  {
+   "t": "김치를",
+   "s": 1.84,
+   "e": 2.32,
+   "r": "gimchireul"
+  },
+  {
+   "t": "한",
+   "s": 2.48,
+   "e": 2.56,
+   "r": "han"
+  },
+  {
+   "t": "번에",
+   "s": 2.64,
+   "e": 2.88,
+   "p": "버네",
+   "tags": [
+    "연음"
+   ],
+   "r": "beone"
+  },
+  {
+   "t": "많이",
+   "s": 3.04,
+   "e": 3.24,
+   "p": "마니",
+   "tags": [
+    "ㅎ 탈락",
+    "연음"
+   ],
+   "r": "mani",
+   "f": 1
+  },
+  {
+   "t": "만드는",
+   "s": 3.36,
+   "e": 3.68,
+   "r": "mandeuneun"
+  },
+  {
+   "t": "것을",
+   "s": 3.76,
+   "e": 3.92,
+   "p": "거슬",
+   "tags": [
+    "연음"
+   ],
+   "r": "geoseul"
+  },
+  {
+   "t": "말해요.",
+   "s": 4.0,
+   "e": 4.38,
+   "r": "malhaeyo"
+  },
+  {
+   "t": "예전에는",
+   "s": 5.04,
+   "e": 5.76,
+   "p": "예저네는",
+   "tags": [
+    "연음"
+   ],
+   "r": "yejeoneneun",
+   "f": 1
+  },
+  {
+   "t": "김장",
+   "s": 5.92,
+   "e": 6.16,
+   "r": "gimjang"
+  },
+  {
+   "t": "김치를",
+   "s": 6.32,
+   "e": 6.72,
+   "r": "gimchireul"
+  },
+  {
+   "t": "항아리에",
+   "s": 6.88,
+   "e": 7.2,
+   "r": "hangarie",
+   "f": 1
+  },
+  {
+   "t": "넣은",
+   "s": 7.36,
+   "e": 7.6,
+   "p": "너은",
+   "tags": [
+    "ㅎ 탈락"
+   ],
+   "r": "neoeun"
+  },
+  {
+   "t": "후",
+   "s": 7.68,
+   "e": 7.78,
+   "r": "hu"
+  },
+  {
+   "t": "땅에",
+   "s": 8.08,
+   "e": 8.24,
+   "r": "ttange",
+   "f": 1
+  },
+  {
+   "t": "묻어",
+   "s": 8.4,
+   "e": 8.56,
+   "p": "무더",
+   "tags": [
+    "연음"
+   ],
+   "r": "mudeo"
+  },
+  {
+   "t": "보관했어요.",
+   "s": 8.72,
+   "e": 9.32,
+   "p": "보관해써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "bogwanhaesseoyo"
+  },
+  {
+   "t": "그러면",
+   "s": 9.92,
+   "e": 10.32,
+   "r": "geureomyeon"
+  },
+  {
+   "t": "발효도",
+   "s": 10.56,
+   "e": 10.92,
+   "r": "balhyodo",
+   "f": 1
+  },
+  {
+   "t": "잘되고",
+   "s": 11.04,
+   "e": 11.5,
+   "r": "jaldoego"
+  },
+  {
+   "t": "오래",
+   "s": 11.76,
+   "e": 11.92,
+   "r": "orae"
+  },
+  {
+   "t": "보관할",
+   "s": 12.0,
+   "e": 12.36,
+   "r": "bogwanhal"
+  },
+  {
+   "t": "수",
+   "s": 12.4,
+   "e": 12.44,
+   "p": "쑤",
+   "tags": [
+    "경음화"
+   ],
+   "r": "ssu"
+  },
+  {
+   "t": "있어요.",
+   "s": 12.48,
+   "e": 12.9,
+   "p": "이써요",
+   "tags": [
+    "연음"
+   ],
+   "r": "isseoyo"
+  },
+  {
+   "t": "요즘은",
+   "s": 13.6,
+   "e": 14.16,
+   "p": "요즈믄",
+   "tags": [
+    "연음"
+   ],
+   "r": "yojeumeun",
+   "f": 1
+  },
+  {
+   "t": "김치냉장고에",
+   "s": 14.32,
+   "e": 15.12,
+   "r": "gimchinaengjangoe",
+   "f": 1
+  },
+  {
+   "t": "넣어",
+   "s": 15.2,
+   "e": 15.36,
+   "p": "너어",
+   "tags": [
+    "ㅎ 탈락"
+   ],
+   "r": "neoeo"
+  },
+  {
+   "t": "보관해요.",
+   "s": 15.44,
+   "e": 15.92,
+   "r": "bogwanhaeyo"
+  },
+  {
+   "t": "자,",
+   "s": 16.72,
+   "e": 16.96,
+   "r": "ja"
+  },
+  {
+   "t": "다",
+   "s": 17.2,
+   "e": 17.28,
+   "r": "da"
+  },
+  {
+   "t": "먹었으면",
+   "s": 17.44,
+   "e": 18.0,
+   "p": "머거쓰면",
+   "tags": [
+    "연음"
+   ],
+   "r": "meogeosseumyeon"
+  },
+  {
+   "t": "나가서",
+   "s": 18.16,
+   "e": 18.48,
+   "r": "nagaseo"
+  },
+  {
+   "t": "구경",
+   "s": 18.56,
+   "e": 18.8,
+   "r": "gugyeong",
+   "f": 1
+  },
+  {
+   "t": "좀",
+   "s": 18.88,
+   "e": 18.96,
+   "r": "jom"
+  },
+  {
+   "t": "할까요?",
+   "s": 19.04,
+   "e": 19.4,
+   "r": "halkkayo"
+  }
+ ],
+ "segs": [
+  {
+   "w": [
+    0,
+    0
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    0.0,
+    0.72
+   ]
+  },
+  {
+   "w": [
+    1,
+    4
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    0.72,
+    2.4
+   ]
+  },
+  {
+   "w": [
+    5,
+    10
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    2.4,
+    4.46
+   ]
+  },
+  {
+   "w": [
+    11,
+    11
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    4.94,
+    5.84
+   ]
+  },
+  {
+   "w": [
+    12,
+    16
+   ],
+   "tone": "→",
+   "pause": "|",
+   "t": [
+    5.84,
+    7.86
+   ]
+  },
+  {
+   "w": [
+    17,
+    19
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    7.86,
+    9.4
+   ]
+  },
+  {
+   "w": [
+    20,
+    22
+   ],
+   "tone": "→",
+   "pause": "|",
+   "t": [
+    9.84,
+    11.56
+   ]
+  },
+  {
+   "w": [
+    23,
+    26
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    11.56,
+    13.0
+   ]
+  },
+  {
+   "w": [
+    27,
+    27
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    13.44,
+    14.24
+   ]
+  },
+  {
+   "w": [
+    28,
+    30
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    14.24,
+    16.0
+   ]
+  },
+  {
+   "w": [
+    31,
+    31
+   ],
+   "tone": "→",
+   "pause": "|",
+   "t": [
+    16.62,
+    17.06
+   ]
+  },
+  {
+   "w": [
+    32,
+    34
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    17.06,
+    18.52
+   ]
+  },
+  {
+   "w": [
+    35,
+    37
+   ],
+   "tone": "↗",
+   "pause": "",
+   "t": [
+    18.52,
+    19.5
+   ]
+  }
+ ],
+ "paras": [
+  {
+   "id": "a",
+   "key": "A",
+   "title": {
+    "en": "What is kimjang?",
+    "ko": "김장이란?"
+   },
+   "segs": [
+    0,
+    2
+   ],
+   "chunks": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ],
+    [
+     0,
+     1,
+     2
+    ]
+   ],
+   "tr": {
+    "en": "Kimjang means making a lot of kimchi at one time, to eat during the winter.",
+    "ko": "Kimjang means making a lot of kimchi at one time, to eat during the winter."
+   },
+   "items": [
+    [
+     "강조",
+     0,
+     0,
+     {
+      "en": "New topic: 김장 (kimjang). Korean has no word stress – bold only marks new information or contrast.",
+      "ko": "새 주제: \"김장\". 한국어에는 단어 강세가 없어서, 굵은 글씨는 새 정보와 대조만 표시해요."
+     }
+    ],
+    [
+     "억양",
+     0,
+     "@t",
+     {
+      "en": "Topic first, then the definition. The voice goes up on 장 and comes down a little on 은 – but there is no real pause (only 0.05 s) →.",
+      "ko": "주제를 먼저 말해요. \"장\"에서 올라갔다가 \"은\"에서 조금 내려와요. 실제로 쉬지는 않아요 →."
+     }
+    ],
+    [
+     "발음 변화",
+     1,
+     3,
+     {
+      "en": "ㄹ moves to the next syllable (연음) → [머글].",
+      "ko": "ㄹ이 넘어가요(연음) → [머글]."
+     }
+    ],
+    [
+     "소리",
+     1,
+     4,
+     {
+      "en": "After the -(으)ㄹ modifier (먹을), a following ㄱ often becomes tense when you say it in one breath: [머글 낌치] (standard pronunciation, rule 27). Here Danbi starts 김치 with a soft breath, so it stays [김치]. Both are correct.",
+      "ko": "관형사형 \"-(으)ㄹ\" 뒤의 ㄱ은 이어 말하면 된소리 [머글 낌치](표준 발음법 27항). 이 음성은 \"김치\"를 새로 시작해서 [김치]로 들려요. 둘 다 맞아요."
+     }
+    ],
+    [
+     "억양",
+     1,
+     "@t",
+     {
+      "en": "먹을 김치를 is one unit (“kimchi to eat”). Keep going →.",
+      "ko": "\"먹을 김치를\"은 한 덩어리. 이어서 →."
+     }
+    ],
+    [
+     "발음 변화",
+     2,
+     6,
+     {
+      "en": "ㄴ moves to 에 (연음) → [한 버네].",
+      "ko": "ㄴ이 넘어가요(연음) → [한 버네]."
+     }
+    ],
+    [
+     "발음 변화",
+     2,
+     7,
+     {
+      "en": "많이 → [마니]: the ㅎ in ㄶ is silent before a vowel (ㅎ 탈락), and ㄴ moves on (연음).",
+      "ko": "겹받침 ㄶ의 ㅎ은 모음 앞에서 소리 나지 않고(ㅎ 탈락), ㄴ이 넘어가요(연음) → [마니]."
+     }
+    ],
+    [
+     "강조",
+     2,
+     7,
+     {
+      "en": "Key information: a lot, all at once (한 번에 많이).",
+      "ko": "중요한 정보: 한 번에 \"많이\"."
+     }
+    ],
+    [
+     "발음 변화",
+     2,
+     9,
+     {
+      "en": "ㅅ moves to 을 (연음) → [거슬].",
+      "ko": "ㅅ이 넘어가요(연음) → [거슬]."
+     }
+    ],
+    [
+     "소리",
+     2,
+     10,
+     {
+      "en": "말해요: in the audio the ㅎ disappears after ㄹ, so it sounds like [마래요]. This is very common in natural speech; careful speech keeps a light h.",
+      "ko": "음성에서는 ㄹ 뒤의 ㅎ이 사라져 [마래요]처럼 들려요. 자연스러운 말에서 흔해요. 또박또박 말할 때는 ㅎ을 살짝 살려요."
+     }
+    ],
+    [
+     "억양",
+     2,
+     "@t",
+     {
+      "en": "Statement: the voice falls at the end ↘.",
+      "ko": "평서문: 끝을 내려요 ↘."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "en": "김장은 → 겨울 동안 먹을 김치를 → 한 번에 많이 만드는 것을 말해요 ↘",
+      "ko": "김장은 → 겨울 동안 먹을 김치를 → 한 번에 많이 만드는 것을 말해요 ↘"
+     },
+     {
+      "en": "A definition: “X은/는 … -는 것을 말해요” (X means …). One long sentence in one breath; only the very end falls.",
+      "ko": "정의하는 문장: \"X은/는 … -는 것을 말해요\". 한 호흡으로, 맨 끝만 내려요."
+     }
+    ],
+    [
+     {
+      "en": "먹을 김치 · [마니] · [마래요]",
+      "ko": "먹을 김치 · [마니] · [마래요]"
+     },
+     {
+      "en": "The -(으)ㄹ modifier before a noun, a silent ㅎ in 많이, and a weak ㅎ in 말해요.",
+      "ko": "관형사형 \"-(으)ㄹ\", \"많이\"의 ㅎ 탈락, \"말해요\"의 약한 ㅎ."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "-는 것을 말해요",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "it means … / it refers to …",
+      "ko": "말의 뜻을 설명할 때"
+     },
+     "note": {
+      "en": "A common way to define a word: 김장은 … 만드는 것을 말해요. In writing also: -는 것을 의미해요.",
+      "ko": "단어를 정의할 때: 김장은 … 만드는 것을 말해요."
+     },
+     "s": 2
+    },
+    {
+     "de": "V-(으)ㄹ + noun",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "a noun that will be V-ed (future, purpose)",
+      "ko": "앞으로 할 일을 꾸미는 관형사형"
+     },
+     "note": {
+      "en": "먹을 김치 = kimchi (that we will) eat; 할 일 = things to do; 살 집 = a house to live in.",
+      "ko": "먹을 김치, 할 일, 살 집."
+     },
+     "s": 1
+    },
+    {
+     "de": "N 동안",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "during, for (a period of time)",
+      "ko": "시간의 길이"
+     },
+     "note": {
+      "en": "겨울 동안 = during the winter; 3일 동안 = for three days.",
+      "ko": "겨울 동안, 3일 동안."
+     },
+     "s": 1
+    },
+    {
+     "de": "한 번에",
+     "tag": {
+      "en": "Expression",
+      "ko": "표현"
+     },
+     "mean": {
+      "en": "at once, in one go",
+      "ko": "한 차례에 모두"
+     },
+     "note": {
+      "en": "한 번에 많이 만들어요 = make a lot in one go. Opposite: 조금씩 (a little at a time).",
+      "ko": "반대: 조금씩."
+     },
+     "s": 2
+    },
+    {
+     "de": "김장 (김장하다)",
+     "tag": {
+      "en": "Vocabulary",
+      "ko": "어휘"
+     },
+     "mean": {
+      "en": "making a big batch of kimchi for the winter",
+      "ko": "겨울 동안 먹을 김치를 한꺼번에 담그는 일"
+     },
+     "note": {
+      "en": "Usually in late autumn; families and neighbours often do it together. Kimjang is on UNESCO’s list of intangible cultural heritage.",
+      "ko": "늦가을에 가족·이웃이 함께 해요. 유네스코 인류무형문화유산."
+     },
+     "s": 0
+    }
+   ],
+   "checks": [
+    {
+     "en": "김장은 … 말해요 in one breath, falling only at the end.",
+     "ko": "\"김장은 … 말해요\"를 한 호흡으로, 끝에서만 내렸다."
+    },
+    {
+     "en": "많이 sounded like [마니] – no h.",
+     "ko": "\"많이\"를 [마니]로 읽었다."
+    },
+    {
+     "en": "먹을 [머글], 번에 [버네] and 것을 [거슬] were linked.",
+     "ko": "[머글], [버네], [거슬]을 이어 읽었다."
+    },
+    {
+     "en": "I can explain a word with “-는 것을 말해요”.",
+     "ko": "\"-는 것을 말해요\"로 단어를 설명할 수 있다."
+    }
+   ]
+  },
+  {
+   "id": "b",
+   "key": "B",
+   "title": {
+    "en": "In the past",
+    "ko": "예전에는"
+   },
+   "segs": [
+    3,
+    7
+   ],
+   "chunks": [
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "tr": {
+    "en": "In the past, people put the kimjang kimchi into earthenware jars and buried them in the ground to keep it. That way it ferments well and keeps for a long time.",
+    "ko": "In the past, people put the kimjang kimchi into earthenware jars and buried them in the ground to keep it. That way it ferments well and keeps for a long time."
+   },
+   "items": [
+    [
+     "발음 변화",
+     3,
+     11,
+     {
+      "en": "ㄴ moves to 에 (연음) → [예저네는].",
+      "ko": "ㄴ이 넘어가요(연음) → [예저네는]."
+     }
+    ],
+    [
+     "강조",
+     3,
+     11,
+     {
+      "en": "Contrast: in the PAST (예전에는) … – later in the text: NOWADAYS (요즘은) …",
+      "ko": "대조: \"예전에는\" … (뒤에서 \"요즘은\" …)."
+     }
+    ],
+    [
+     "억양",
+     3,
+     "@t",
+     {
+      "en": "Time phrase with 는: no pause, keep going →.",
+      "ko": "때 + 는: 쉬지 않고 이어요 →."
+     }
+    ],
+    [
+     "강조",
+     4,
+     14,
+     {
+      "en": "New information: a large earthenware jar (항아리).",
+      "ko": "새 정보: \"항아리\"."
+     }
+    ],
+    [
+     "발음 변화",
+     4,
+     15,
+     {
+      "en": "넣은 → [너은]: the ㅎ at the end of 넣- is silent before a vowel (ㅎ 탈락).",
+      "ko": "받침 ㅎ은 모음 앞에서 소리 나지 않아요(ㅎ 탈락) → [너은]."
+     }
+    ],
+    [
+     "억양",
+     4,
+     "@t",
+     {
+      "en": "-(으)ㄴ 후 (“after …”): the voice rises on 후 and holds →.",
+      "ko": "\"-(으)ㄴ 후\": \"후\"에서 올려서 유지 →."
+     }
+    ],
+    [
+     "쉼",
+     4,
+     "@p",
+     {
+      "en": "Short pause (|) after 넣은 후 – the audio is silent for about 0.2 s, a bit longer than the closure of tense ㄸ in 땅.",
+      "ko": "\"넣은 후\" 뒤에서 짧게 쉬어요 (|). 음성에서 약 0.2초 무음."
+     }
+    ],
+    [
+     "소리",
+     5,
+     17,
+     {
+      "en": "땅 starts with tense ㄸ: tight, no puff of air. 탕 (aspirated) or 당 (lenis) would be different sounds.",
+      "ko": "\"땅\"은 된소리 ㄸ. 바람 없이 힘주어요. 탕·당과 달라요."
+     }
+    ],
+    [
+     "강조",
+     5,
+     17,
+     {
+      "en": "New information: in the ground (땅에).",
+      "ko": "새 정보: \"땅에\"."
+     }
+    ],
+    [
+     "발음 변화",
+     5,
+     18,
+     {
+      "en": "ㄷ moves to 어 (연음) → [무더].",
+      "ko": "ㄷ이 넘어가요(연음) → [무더]."
+     }
+    ],
+    [
+     "발음 변화",
+     5,
+     19,
+     {
+      "en": "ㅆ moves to 어 (연음) → [보관해써요]. Here the ㅎ in 했 is clearly audible – compare 말해요 in part A.",
+      "ko": "ㅆ이 넘어가요(연음) → [보관해써요]. 여기서는 \"했\"의 ㅎ이 또렷해요. A의 \"말해요\"와 비교해 보세요."
+     }
+    ],
+    [
+     "억양",
+     5,
+     "@t",
+     {
+      "en": "Statement: the voice falls ↘.",
+      "ko": "평서문: 내려요 ↘."
+     }
+    ],
+    [
+     "쉼",
+     5,
+     "@p",
+     {
+      "en": "Long pause (||) – about 0.6 s.",
+      "ko": "길게 쉬어요 (||). 약 0.6초."
+     }
+    ],
+    [
+     "소리",
+     6,
+     21,
+     {
+      "en": "발효: after ㄹ the ㅎ is only a light breath in the audio – close to [바료].",
+      "ko": "ㄹ 뒤의 ㅎ이 약해서 [바료]에 가깝게 들려요."
+     }
+    ],
+    [
+     "강조",
+     6,
+     21,
+     {
+      "en": "New information: fermentation (발효).",
+      "ko": "새 정보: \"발효\"."
+     }
+    ],
+    [
+     "억양",
+     6,
+     "@t",
+     {
+      "en": "-고 (“and”) links two results: the voice rises on 고 →.",
+      "ko": "\"-고\"로 두 결과를 이어요. \"고\"에서 올려요 →."
+     }
+    ],
+    [
+     "쉼",
+     6,
+     "@p",
+     {
+      "en": "Short pause (|) after 잘되고 – about 0.15 s.",
+      "ko": "\"잘되고\" 뒤에서 짧게 쉬어요 (|). 약 0.15초."
+     }
+    ],
+    [
+     "발음 변화",
+     7,
+     25,
+     {
+      "en": "After -(으)ㄹ (보관할), ㅅ becomes tense: [쑤] (경음화).",
+      "ko": "\"-(으)ㄹ\" 뒤의 ㅅ은 된소리 → [쑤](경음화)."
+     }
+    ],
+    [
+     "발음 변화",
+     7,
+     26,
+     {
+      "en": "ㅆ moves to 어 (연음) → [이써요].",
+      "ko": "ㅆ이 넘어가요(연음) → [이써요]."
+     }
+    ],
+    [
+     "억양",
+     7,
+     "@t",
+     {
+      "en": "Statement: the voice falls ↘.",
+      "ko": "평서문: 내려요 ↘."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "en": "예전에는 → 김장 김치를 항아리에 넣은 후 → | 땅에 묻어 보관했어요 ↘ ||",
+      "ko": "예전에는 → 김장 김치를 항아리에 넣은 후 → | 땅에 묻어 보관했어요 ↘ ||"
+     },
+     {
+      "en": "Steps in order: put it in a jar → after that → bury it and store it. A short pause after 후 separates the two steps.",
+      "ko": "순서대로: 항아리에 넣은 후 → 땅에 묻어 보관. \"후\" 뒤의 짧은 쉼이 두 단계를 나눠요."
+     }
+    ],
+    [
+     {
+      "en": "그러면 → 발효도 잘되고 → | 오래 보관할 수 있어요 ↘",
+      "ko": "그러면 → 발효도 잘되고 → | 오래 보관할 수 있어요 ↘"
+     },
+     {
+      "en": "그러면 (“that way”) introduces the result; two results are joined with -고.",
+      "ko": "\"그러면\"으로 결과를 말하고, 두 결과를 \"-고\"로 이어요."
+     }
+    ],
+    [
+     {
+      "en": "[너은] · [무더] · [쑤]",
+      "ko": "[너은] · [무더] · [쑤]"
+     },
+     {
+      "en": "A silent ㅎ, linking, and a tense sound after -(으)ㄹ.",
+      "ko": "ㅎ 탈락, 연음, \"-(으)ㄹ\" 뒤 경음화."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "항아리",
+     "tag": {
+      "en": "Vocabulary",
+      "ko": "어휘"
+     },
+     "mean": {
+      "en": "earthenware jar, crock",
+      "ko": "흙으로 구운 큰 그릇"
+     },
+     "note": {
+      "en": "Traditional brown jars for kimchi, soy sauce and pastes (장). 장독대 = the place where the jars stand.",
+      "ko": "김치·장을 담는 그릇. 장독대."
+     },
+     "s": 4
+    },
+    {
+     "de": "V-(으)ㄴ 후",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "after doing …",
+      "ko": "어떤 일을 한 뒤에"
+     },
+     "note": {
+      "en": "넣다 → 넣은 후 (after putting in). You met it in lesson 4: 공연을 본 후에.",
+      "ko": "4과의 \"공연을 본 후에\"와 같아요."
+     },
+     "s": 4
+    },
+    {
+     "de": "묻다 → 묻어 (보관하다)",
+     "tag": {
+      "en": "Vocabulary",
+      "ko": "어휘"
+     },
+     "mean": {
+      "en": "to bury → bury and (store)",
+      "ko": "땅속에 넣고 덮다"
+     },
+     "note": {
+      "en": "-아/어 links two actions: 묻어 보관했어요 = buried it and kept it. Careful: 묻다 “to ask” is irregular (물어요), but 묻다 “to bury” is regular (묻어요).",
+      "ko": "\"묻어 보관했어요\": 묻고 보관했어요. 주의: 묻다(질문) → 물어요, 묻다(땅에) → 묻어요."
+     },
+     "s": 5
+    },
+    {
+     "de": "발효(가) 잘되다",
+     "tag": {
+      "en": "Expression",
+      "ko": "표현"
+     },
+     "mean": {
+      "en": "to ferment well",
+      "ko": "발효가 잘 일어나다"
+     },
+     "note": {
+      "en": "발효 = fermentation; 잘되다 = to go well. 발효 식품 = fermented food (kimchi, 된장, 막걸리).",
+      "ko": "발효 식품: 김치, 된장, 막걸리."
+     },
+     "s": 6
+    },
+    {
+     "de": "그러면 · -(으)ㄹ 수 있다",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "that way / then · can",
+      "ko": "앞 내용의 결과 · 가능"
+     },
+     "note": {
+      "en": "그러면 introduces a result. 보관하다 → 보관할 수 있어요 = it can be kept. 오래 = for a long time.",
+      "ko": "그러면 + 결과. 보관할 수 있어요. 오래."
+     },
+     "s": 7
+    }
+   ],
+   "checks": [
+    {
+     "en": "Short pause after 넣은 후, then a tight ㄸ in 땅.",
+     "ko": "\"넣은 후\" 뒤에서 짧게 쉬고, \"땅\"을 된소리로 읽었다."
+    },
+    {
+     "en": "넣은 [너은] without h; 묻어 [무더] linked.",
+     "ko": "[너은], [무더]를 정확히 읽었다."
+    },
+    {
+     "en": "Short pause after 잘되고; 보관할 수 with a tense [쑤].",
+     "ko": "\"잘되고\" 뒤에서 짧게 쉬고, [보관할 쑤]로 읽었다."
+    },
+    {
+     "en": "Both sentences fell at the end ↘.",
+     "ko": "두 문장 모두 끝을 내렸다 ↘."
+    }
+   ]
+  },
+  {
+   "id": "c",
+   "key": "C",
+   "title": {
+    "en": "Nowadays – and a suggestion",
+    "ko": "요즘은 · 구경 갈까요?"
+   },
+   "segs": [
+    8,
+    12
+   ],
+   "chunks": [
+    [
+     8
+    ],
+    [
+     9
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     10,
+     11,
+     12
+    ]
+   ],
+   "tr": {
+    "en": "These days, people keep it in a kimchi refrigerator. Well, if we’re done eating, shall we go out and have a look around?",
+    "ko": "These days, people keep it in a kimchi refrigerator. Well, if we’re done eating, shall we go out and have a look around?"
+   },
+   "items": [
+    [
+     "발음 변화",
+     8,
+     27,
+     {
+      "en": "ㅁ moves to 은 (연음) → [요즈믄].",
+      "ko": "ㅁ이 넘어가요(연음) → [요즈믄]."
+     }
+    ],
+    [
+     "강조",
+     8,
+     27,
+     {
+      "en": "Contrast with 예전에는: NOWADAYS.",
+      "ko": "\"예전에는\"과 대조: \"요즘은\"."
+     }
+    ],
+    [
+     "억양",
+     8,
+     "@t",
+     {
+      "en": "No pause after 요즘은 – keep going →.",
+      "ko": "\"요즘은\" 뒤에서 쉬지 않아요 →."
+     }
+    ],
+    [
+     "강조",
+     9,
+     28,
+     {
+      "en": "New information: a kimchi refrigerator (김치냉장고).",
+      "ko": "새 정보: \"김치냉장고\"."
+     }
+    ],
+    [
+     "발음 변화",
+     9,
+     29,
+     {
+      "en": "넣어 → [너어]: ㅎ is silent before a vowel (ㅎ 탈락).",
+      "ko": "받침 ㅎ이 소리 나지 않아요(ㅎ 탈락) → [너어]."
+     }
+    ],
+    [
+     "억양",
+     9,
+     "@t",
+     {
+      "en": "Statement: the voice falls ↘.",
+      "ko": "평서문: 내려요 ↘."
+     }
+    ],
+    [
+     "쉼",
+     9,
+     "@p",
+     {
+      "en": "Long pause (||) – about 0.7 s. The topic changes: now comes an invitation.",
+      "ko": "길게 쉬어요 (||). 약 0.7초. 이제 화제가 바뀌어요."
+     }
+    ],
+    [
+     "억양",
+     10,
+     "@t",
+     {
+      "en": "자 (“well, now”) gets the listener’s attention before a suggestion. Short, then a small pause.",
+      "ko": "\"자\"는 제안하기 전에 주의를 끄는 말. 짧게 말하고 잠깐 쉬어요."
+     }
+    ],
+    [
+     "쉼",
+     10,
+     "@p",
+     {
+      "en": "Short pause (|) after 자 – about 0.2 s.",
+      "ko": "\"자\" 뒤에서 짧게 쉬어요 (|). 약 0.2초."
+     }
+    ],
+    [
+     "발음 변화",
+     11,
+     33,
+     {
+      "en": "ㄱ and ㅆ move on (연음) → [머거쓰면].",
+      "ko": "ㄱ과 ㅆ이 넘어가요(연음) → [머거쓰면]."
+     }
+    ],
+    [
+     "억양",
+     11,
+     "@t",
+     {
+      "en": "-(으)면 and -아서 keep the sentence going: no pause, the voice stays up →.",
+      "ko": "\"-(으)면\", \"-아서\"로 이어져요. 쉬지 않고 높게 →."
+     }
+    ],
+    [
+     "강조",
+     12,
+     35,
+     {
+      "en": "New information: sightseeing (구경).",
+      "ko": "새 정보: \"구경\"."
+     }
+    ],
+    [
+     "억양",
+     12,
+     "@t",
+     {
+      "en": "Suggestion question -(으)ㄹ까요? (“Shall we …?”): the voice dips on 까 and rises on 요 ↗.",
+      "ko": "제안하는 질문 \"-(으)ㄹ까요?\": \"까\"에서 내려갔다가 \"요\"에서 올려요 ↗."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "en": "요즘은 → 김치냉장고에 넣어 보관해요 ↘ ||",
+      "ko": "요즘은 → 김치냉장고에 넣어 보관해요 ↘ ||"
+     },
+     {
+      "en": "The answer to 예전에는: past vs. now. 넣어 보관해요 = put it in and keep it.",
+      "ko": "\"예전에는\"과 대조: 예전과 요즘."
+     }
+    ],
+    [
+     {
+      "en": "자, | 다 먹었으면 나가서 → 구경 좀 할까요 ↗",
+      "ko": "자, | 다 먹었으면 나가서 → 구경 좀 할까요 ↗"
+     },
+     {
+      "en": "A new topic: 자 gets attention, then a polite suggestion that rises at the end.",
+      "ko": "새 화제: \"자\"로 주의를 끌고, 끝을 올리는 정중한 제안."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "김치냉장고",
+     "tag": {
+      "en": "Vocabulary",
+      "ko": "어휘"
+     },
+     "mean": {
+      "en": "kimchi refrigerator",
+      "ko": "김치를 보관하는 냉장고"
+     },
+     "note": {
+      "en": "A separate fridge that keeps kimchi at the right temperature – most Korean homes have one.",
+      "ko": "대부분의 한국 집에 있어요."
+     },
+     "s": 9
+    },
+    {
+     "de": "예전에는 ↔ 요즘은",
+     "tag": {
+      "en": "Expression",
+      "ko": "표현"
+     },
+     "mean": {
+      "en": "in the past ↔ nowadays",
+      "ko": "과거와 현재를 대조"
+     },
+     "note": {
+      "en": "는 contrasts two times: 예전에는 … 보관했어요. 요즘은 … 보관해요. Note the tenses: past ↔ present.",
+      "ko": "시제도 대조: 보관했어요 ↔ 보관해요."
+     },
+     "s": 8
+    },
+    {
+     "de": "-았/었으면",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "if / once (you) have …",
+      "ko": "완료된 일을 조건으로"
+     },
+     "note": {
+      "en": "다 먹었으면 = if (we’ve) finished eating. 다 = all, completely.",
+      "ko": "다 먹었으면 = 먹는 것이 끝났으면."
+     },
+     "s": 11
+    },
+    {
+     "de": "구경(을) 하다",
+     "tag": {
+      "en": "Vocabulary",
+      "ko": "어휘"
+     },
+     "mean": {
+      "en": "to look around, go sightseeing",
+      "ko": "이것저것 둘러보다"
+     },
+     "note": {
+      "en": "구경 좀 할까요? – 좀 makes the suggestion softer and more polite.",
+      "ko": "\"좀\"을 넣으면 부드러워요."
+     },
+     "s": 12
+    },
+    {
+     "de": "-(으)ㄹ까요?",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "Shall we …? (suggestion)",
+      "ko": "같이 하자고 제안하는 질문"
+     },
+     "note": {
+      "en": "나가서 구경 좀 할까요? = Shall we go out and look around? Answer: 네, 좋아요!",
+      "ko": "대답: 네, 좋아요!"
+     },
+     "s": 12
+    }
+   ],
+   "checks": [
+    {
+     "en": "넣어 sounded like [너어] – no h.",
+     "ko": "\"넣어\"를 [너어]로 읽었다."
+    },
+    {
+     "en": "A small pause after 자.",
+     "ko": "\"자\" 뒤에서 잠깐 쉬었다."
+    },
+    {
+     "en": "먹었으면 [머거쓰면] and 나가서 without stopping.",
+     "ko": "[머거쓰면]과 \"나가서\"를 멈추지 않고 이었다."
+    },
+    {
+     "en": "할까요 rose at the end ↗.",
+     "ko": "\"할까요\" 끝을 올렸다 ↗."
+    }
+   ]
+  }
+ ],
+ "fullChecks": [
+  {
+   "en": "I paused only at the marks, not after every word.",
+   "ko": "표시된 곳에서만 쉬었다."
+  },
+  {
+   "en": "The ㅎ-words had no h: [마니], [너은], [너어].",
+   "ko": "[마니], [너은], [너어]를 ㅎ 없이 읽었다."
+  },
+  {
+   "en": "예전에는 and 요즘은 sounded like a contrast.",
+   "ko": "\"예전에는\"과 \"요즘은\"이 대조로 들렸다."
+  },
+  {
+   "en": "My recording is about as long as the model (about 20 seconds).",
+   "ko": "내 녹음 길이가 원어민과 비슷했다 (약 20초)."
+  }
+ ]
+}
