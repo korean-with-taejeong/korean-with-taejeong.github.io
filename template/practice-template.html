@@ -75,6 +75,7 @@ h1{font-size:clamp(28px,6.4vw,36px);line-height:1.18;margin:0 0 10px;color:var(-
 .w.hit{background:var(--hit);border-radius:5px;box-shadow:0 0 0 3px var(--hit)}
 .w.play{background:var(--now);border-radius:5px}
 .tn{color:var(--lav);font-weight:600;margin:0 .1em 0 .15em;white-space:nowrap}
+.nb{white-space:nowrap} /* last word + arrow + pause stay on one line */
 .p1,.p2{display:inline-block;height:1em;vertical-align:-.15em;margin:0 .2em 0 .25em}
 .p1{width:2px;background:var(--lav);opacity:.5}
 .p2{width:9px;border-left:2.5px solid var(--lav);border-right:2.5px solid var(--lav)}
@@ -359,7 +360,7 @@ const playWord = j => play({st: Math.max(0, W[j].s - 0.04), en: W[j].e + 0.06, r
 
 /* ---------------- rendering pieces ---------------- */
 function wordHTML(j, hit){ const w = W[j]; return '<span class="w' + (w.p ? ' has' : '') + (w.f ? ' f' : '') + (hit === j ? ' hit' : '') + '" data-w="' + j + '">' + (w.p ? '<span class="pr">[' + esc(w.p) + ']</span>' : '') + '<span class="hg">' + esc(w.t) + '</span><span class="rm">' + esc(w.r || '') + '</span></span>'; }
-function seg(i, o){ o = o || {}; const h = o.hit, sg = S[i]; let s = '<span class="sg" data-s="' + i + '">'; const parts = []; for (let j = sg.w[0]; j <= sg.w[1]; j++) parts.push(wordHTML(j, h)); s += parts.join(' ') + '</span>&nbsp;<span class="tn' + (h === '@t' ? ' hm' : '') + '">' + sg.tone + '</span>'; if (!o.last && sg.pause) s += '&nbsp;<i class="' + (sg.pause === '||' ? 'p2' : 'p1') + (h === '@p' ? ' hm' : '') + '"></i>'; return s + ' '; }
+function seg(i, o){ o = o || {}; const h = o.hit, sg = S[i]; let s = '<span class="sg" data-s="' + i + '">'; const parts = []; for (let j = sg.w[0]; j <= sg.w[1]; j++) parts.push(wordHTML(j, h)); const lastW = parts.pop(); s += parts.join(' ') + (parts.length ? ' ' : '') + '<span class="nb">' + lastW + '&nbsp;<span class="tn' + (h === '@t' ? ' hm' : '') + '">' + sg.tone + '</span>'; if (!o.last && sg.pause) s += '&nbsp;<i class="' + (sg.pause === '||' ? 'p2' : 'p1') + (h === '@p' ? ' hm' : '') + '"></i>'; return s + '</span></span> '; }
 function ann(a, b, it){ let s = ''; for (let i = a; i <= b; i++) s += seg(i, {hit: it && it[1] === i ? it[2] : null, last: i === b}); return s; }
 const annCls = () => 'ann' + (showRom ? ' rom' : '');
 const legend = () => '<div class="legend"><span><b class="lgf">가나</b> ' + t('lgFocus') + '</span><span><span class="lgp">[ ]</span> ' + t('lgSound') + '</span><span><span class="tn">→</span>' + t('lgCont') + '</span><span><span class="tn">↘</span>' + t('lgFall') + '</span><span><span class="tn">↗</span>' + t('lgRise') + '</span><span><i class="p1"></i>' + t('lgShort') + '</span><span><i class="p2"></i>' + t('lgLong') + '</span></div><p class="note">' + t('noStress') + '</p>';

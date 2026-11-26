@@ -1,0 +1,905 @@
+{
+ "id": "04-taekwondo",
+ "num": {
+  "en": "Lesson 4",
+  "ko": "4과"
+ },
+ "title": {
+  "en": "Trying Taekwondo",
+  "ko": "태권도 체험"
+ },
+ "level": "A2",
+ "voice": "Danbi (woman) · Minho (man)",
+ "model": "eleven_v4",
+ "focus": {
+  "en": "-(으)ㄴ 후에 · -아/어 볼 수 있겠지요? · tense sounds",
+  "ko": "-(으)ㄴ 후에 · -아/어 볼 수 있겠지요? · 경음화"
+ },
+ "audio": "audio/04-taekwondo.mp3",
+ "text": "와, 재미있겠다. 공연을 본 후에는 태권도도 해 볼 수 있겠지요? 물론이죠. 그리고 태권도 체험이 끝나면 전주에 가서 맛있는 음식도 먹어요.",
+ "words": [
+  {
+   "t": "와,",
+   "s": 0.0,
+   "e": 0.48,
+   "r": "wa"
+  },
+  {
+   "t": "재미있겠다.",
+   "s": 0.64,
+   "e": 1.56,
+   "p": "재미읻껟따",
+   "tags": [
+    "받침 대표음",
+    "경음화"
+   ],
+   "r": "jaemiitkkettta"
+  },
+  {
+   "t": "공연을",
+   "s": 2.0,
+   "e": 2.4,
+   "p": "공여늘",
+   "tags": [
+    "연음"
+   ],
+   "r": "gongyeoneul"
+  },
+  {
+   "t": "본",
+   "s": 2.48,
+   "e": 2.56,
+   "r": "bon"
+  },
+  {
+   "t": "후에는",
+   "s": 2.64,
+   "e": 3.2,
+   "r": "hueneun"
+  },
+  {
+   "t": "태권도도",
+   "s": 3.28,
+   "e": 3.68,
+   "p": "태꿘도도",
+   "tags": [
+    "경음화"
+   ],
+   "r": "taekkwondodo",
+   "f": 1
+  },
+  {
+   "t": "해",
+   "s": 3.76,
+   "e": 3.84,
+   "r": "hae"
+  },
+  {
+   "t": "볼",
+   "s": 3.92,
+   "e": 4.0,
+   "r": "bol"
+  },
+  {
+   "t": "수",
+   "s": 4.04,
+   "e": 4.08,
+   "p": "쑤",
+   "tags": [
+    "경음화"
+   ],
+   "r": "ssu"
+  },
+  {
+   "t": "있겠지요?",
+   "s": 4.16,
+   "e": 4.64,
+   "p": "읻껟찌요",
+   "tags": [
+    "받침 대표음",
+    "경음화"
+   ],
+   "r": "itkketjjiyo"
+  },
+  {
+   "t": "물론이죠.",
+   "s": 5.36,
+   "e": 6.24,
+   "p": "물로니죠",
+   "tags": [
+    "연음"
+   ],
+   "r": "mullonijyo"
+  },
+  {
+   "t": "그리고",
+   "s": 6.72,
+   "e": 7.2,
+   "r": "geurigo"
+  },
+  {
+   "t": "태권도",
+   "s": 7.28,
+   "e": 7.6,
+   "p": "태꿘도",
+   "tags": [
+    "경음화"
+   ],
+   "r": "taekkwondo"
+  },
+  {
+   "t": "체험이",
+   "s": 7.68,
+   "e": 7.92,
+   "p": "체허미",
+   "tags": [
+    "연음"
+   ],
+   "r": "cheheomi",
+   "f": 1
+  },
+  {
+   "t": "끝나면",
+   "s": 8.0,
+   "e": 8.54,
+   "p": "끈나면",
+   "tags": [
+    "받침 대표음",
+    "비음화"
+   ],
+   "r": "kkeunnamyeon"
+  },
+  {
+   "t": "전주에",
+   "s": 8.8,
+   "e": 9.04,
+   "r": "jeonjue",
+   "f": 1
+  },
+  {
+   "t": "가서",
+   "s": 9.12,
+   "e": 9.46,
+   "r": "gaseo"
+  },
+  {
+   "t": "맛있는",
+   "s": 9.54,
+   "e": 10.0,
+   "p": "마신는",
+   "tags": [
+    "연음",
+    "비음화"
+   ],
+   "r": "masinneun",
+   "f": 1
+  },
+  {
+   "t": "음식도",
+   "s": 10.08,
+   "e": 10.4,
+   "p": "음식또",
+   "tags": [
+    "경음화"
+   ],
+   "r": "eumsiktto"
+  },
+  {
+   "t": "먹어요.",
+   "s": 10.48,
+   "e": 10.9,
+   "p": "머거요",
+   "tags": [
+    "연음"
+   ],
+   "r": "meogeoyo"
+  }
+ ],
+ "segs": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    0.0,
+    1.7
+   ]
+  },
+  {
+   "w": [
+    2,
+    4
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    1.94,
+    3.22
+   ]
+  },
+  {
+   "w": [
+    5,
+    5
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    3.22,
+    3.72
+   ]
+  },
+  {
+   "w": [
+    6,
+    9
+   ],
+   "tone": "↗",
+   "pause": "",
+   "t": [
+    3.72,
+    4.8
+   ]
+  },
+  {
+   "w": [
+    10,
+    10
+   ],
+   "tone": "↘",
+   "pause": "||",
+   "t": [
+    5.3,
+    6.32
+   ]
+  },
+  {
+   "w": [
+    11,
+    14
+   ],
+   "tone": "→",
+   "pause": "|",
+   "t": [
+    6.56,
+    8.6
+   ]
+  },
+  {
+   "w": [
+    15,
+    16
+   ],
+   "tone": "→",
+   "pause": "",
+   "t": [
+    8.6,
+    9.53
+   ]
+  },
+  {
+   "w": [
+    17,
+    19
+   ],
+   "tone": "↘",
+   "pause": "",
+   "t": [
+    9.53,
+    11.04
+   ]
+  }
+ ],
+ "paras": [
+  {
+   "id": "a",
+   "key": "A",
+   "title": {
+    "en": "She asks: Can we try it?",
+    "ko": "여자: 해 볼 수 있겠지요?"
+   },
+   "segs": [
+    0,
+    3
+   ],
+   "chunks": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     1,
+     2,
+     3
+    ]
+   ],
+   "tr": {
+    "en": "Wow, that must be fun! Once we’ve seen the show, we’ll get to try Taekwondo too, won’t we?",
+    "ko": "Wow, that must be fun! Once we’ve seen the show, we’ll get to try Taekwondo too, won’t we?"
+   },
+   "items": [
+    [
+     "소리",
+     0,
+     0,
+     {
+      "en": "와 (“wow”) is a reaction word. Stretch it a little and let the voice go up.",
+      "ko": "\"와\"는 감탄하는 말. 조금 길게, 살짝 올려요."
+     }
+    ],
+    [
+     "발음 변화",
+     0,
+     1,
+     {
+      "en": "재미있겠다 → [재미읻껟따]: each ㅆ before ㄱ or ㄷ sounds like a stopped [ㄷ] (받침 대표음), and the next consonant becomes tense: ㄱ → [ㄲ], ㄷ → [ㄸ] (경음화). In the audio you can hear a short catch before 따.",
+      "ko": "ㅆ은 [ㄷ]로(받침 대표음), 뒤의 ㄱ·ㄷ은 된소리 [ㄲ]·[ㄸ]로(경음화) → [재미읻껟따]. 음성에서 \"따\" 앞이 잠깐 막혀요."
+     }
+    ],
+    [
+     "억양",
+     0,
+     "@t",
+     {
+      "en": "-겠다 here is an exclamation (“That must be fun!”). The voice falls at the end ↘.",
+      "ko": "감탄하는 \"-겠다\". 끝을 내려요 ↘."
+     }
+    ],
+    [
+     "쉼",
+     0,
+     "@p",
+     {
+      "en": "Long pause (||) before the question – about 0.4 seconds in the audio.",
+      "ko": "질문 전에 길게 쉬어요 (||). 음성에서 약 0.4초."
+     }
+    ],
+    [
+     "발음 변화",
+     1,
+     2,
+     {
+      "en": "ㄴ moves to the next syllable (연음) → [공여늘].",
+      "ko": "ㄴ이 \"을\"로 넘어가요(연음) → [공여늘]."
+     }
+    ],
+    [
+     "소리",
+     1,
+     4,
+     {
+      "en": "후: in the audio the ㅎ almost disappears, so 본 후에는 sounds close to [보누에는]. That’s normal in fast speech – a light h, [본 후에는], is also correct.",
+      "ko": "음성에서는 ㅎ이 거의 안 들려서 [보누에는]처럼 들려요. 빠른 말에서는 자연스러워요. ㅎ을 살짝 살려도 좋아요."
+     }
+    ],
+    [
+     "억양",
+     1,
+     "@t",
+     {
+      "en": "Not the end of the sentence: no pause, go straight on to 태권도도 →.",
+      "ko": "문장 끝이 아니에요. 쉬지 않고 \"태권도도\"로 →."
+     }
+    ],
+    [
+     "발음 변화",
+     2,
+     5,
+     {
+      "en": "태권도 is pronounced [태꿘도] with a tense [ㄲ] (경음화). Start 태 with a puff of air (ㅌ).",
+      "ko": "\"태권도\"는 [태꿘도](경음화). \"태\"는 거센소리 ㅌ."
+     }
+    ],
+    [
+     "강조",
+     2,
+     5,
+     {
+      "en": "New information: Taekwondo TOO (도 = also). Korean has no word stress – bold only marks new information or contrast.",
+      "ko": "새 정보: 태권도\"도\". 한국어에는 단어 강세가 없어서, 굵은 글씨는 새 정보와 대조만 표시해요."
+     }
+    ],
+    [
+     "발음 변화",
+     3,
+     8,
+     {
+      "en": "After -(으)ㄹ (볼), ㅅ becomes tense: 수 → [쑤] (경음화). Say 볼 수 as one unit.",
+      "ko": "\"-(으)ㄹ\" 뒤의 ㅅ은 된소리 → [볼 쑤](경음화). 한 덩어리로."
+     }
+    ],
+    [
+     "발음 변화",
+     3,
+     9,
+     {
+      "en": "있겠지요 → [읻껟찌요]: both ㅆ sound like [ㄷ], and the following ㄱ and ㅈ become tense [ㄲ], [ㅉ].",
+      "ko": "ㅆ은 [ㄷ]로, 뒤의 ㄱ·ㅈ은 [ㄲ]·[ㅉ]로 → [읻껟찌요]."
+     }
+    ],
+    [
+     "억양",
+     3,
+     "@t",
+     {
+      "en": "A yes/no question with -지요? (“…, right?”): you expect “yes” and check. The voice rises at the end ↗.",
+      "ko": "확인하는 질문 \"-지요?\". 끝을 올려요 ↗."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "en": "와, 재미있겠다 ↘ ||",
+      "ko": "와, 재미있겠다 ↘ ||"
+     },
+     {
+      "en": "First a reaction: -겠다 guesses how something will be (“That must be fun!”). Then a pause before the question.",
+      "ko": "먼저 반응(\"-겠다\" = 추측). 그리고 쉬었다가 질문해요."
+     }
+    ],
+    [
+     {
+      "en": "공연을 본 후에는 → 태권도도 해 볼 수 있겠지요 ↗",
+      "ko": "공연을 본 후에는 → 태권도도 해 볼 수 있겠지요 ↗"
+     },
+     {
+      "en": "One long question in one breath: time first (after the show), then the question. Only the very end rises.",
+      "ko": "한 호흡의 긴 질문: 먼저 때, 그다음 질문. 맨 끝만 올려요."
+     }
+    ],
+    [
+     {
+      "en": "[재미읻껟따] · [볼 쑤] · [읻껟찌요]",
+      "ko": "[재미읻껟따] · [볼 쑤] · [읻껟찌요]"
+     },
+     {
+      "en": "Lots of tense sounds: say ㄲ, ㄸ, ㅉ, ㅆ tight and without a puff of air.",
+      "ko": "된소리가 많아요: ㄲ, ㄸ, ㅉ, ㅆ을 힘주어, 바람 없이."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "-(으)ㄴ 후에",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "after doing …",
+      "ko": "어떤 일을 한 뒤에"
+     },
+     "note": {
+      "en": "Verb + -(으)ㄴ 후에: 보다 → 본 후에 (after seeing), 먹다 → 먹은 후에 (after eating). With 는 (본 후에는): “and after that, …”.",
+      "ko": "보다 → 본 후에, 먹다 → 먹은 후에. \"는\"을 붙이면 \"그 뒤에는\"."
+     },
+     "s": 1
+    },
+    {
+     "de": "-아/어 보다",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "to try doing …",
+      "ko": "시험 삼아 해 보다"
+     },
+     "note": {
+      "en": "하다 → 해 보다 (try doing). 태권도를 해 봐요! = Try Taekwondo!",
+      "ko": "하다 → 해 보다. 태권도를 해 봐요!"
+     },
+     "s": 3
+    },
+    {
+     "de": "-(으)ㄹ 수 있다",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "can, be able to",
+      "ko": "가능"
+     },
+     "note": {
+      "en": "보다 → 볼 수 있다 (can see). 해 보다 → 해 볼 수 있다 (can try).",
+      "ko": "볼 수 있다, 해 볼 수 있다."
+     },
+     "s": 3
+    },
+    {
+     "de": "-겠지요? (-겠죠?)",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "…, right? – checking something you expect",
+      "ko": "추측하면서 확인하는 질문"
+     },
+     "note": {
+      "en": "You think it’s true and ask the other person to confirm. In speech often shortened to -겠죠?",
+      "ko": "말할 때는 자주 \"-겠죠?\"로 줄여요."
+     },
+     "s": 3
+    },
+    {
+     "de": "와, 재미있겠다!",
+     "tag": {
+      "en": "Expression",
+      "ko": "표현"
+     },
+     "mean": {
+      "en": "Wow, that must be fun!",
+      "ko": "재미있을 것 같다고 감탄하는 말"
+     },
+     "note": {
+      "en": "-겠다 = a guess about something you haven’t done yet. A short exclamation like this is fine even in a polite conversation.",
+      "ko": "아직 안 해 본 일을 추측. 존댓말 대화 중에도 감탄으로 써요."
+     },
+     "s": 0
+    }
+   ],
+   "checks": [
+    {
+     "en": "재미있겠다 had tense sounds: [재미읻껟따].",
+     "ko": "\"재미있겠다\"를 [재미읻껟따]로 읽었다."
+    },
+    {
+     "en": "From 공연을 to 있겠지요 in one breath, without stopping.",
+     "ko": "\"공연을\"부터 \"있겠지요\"까지 멈추지 않고 읽었다."
+    },
+    {
+     "en": "The question rose at the end ↗.",
+     "ko": "질문 끝을 올렸다 ↗."
+    },
+    {
+     "en": "볼 수 sounded like [볼 쑤].",
+     "ko": "\"볼 수\"를 [볼 쑤]로 읽었다."
+    }
+   ]
+  },
+  {
+   "id": "b",
+   "key": "B",
+   "title": {
+    "en": "He answers: Of course!",
+    "ko": "남자: 물론이죠"
+   },
+   "segs": [
+    4,
+    7
+   ],
+   "chunks": [
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     5,
+     6,
+     7
+    ]
+   ],
+   "tr": {
+    "en": "Sure! And when the Taekwondo session is over, we’ll go to Jeonju and eat some good food.",
+    "ko": "Sure! And when the Taekwondo session is over, we’ll go to Jeonju and eat some good food."
+   },
+   "items": [
+    [
+     "발음 변화",
+     4,
+     10,
+     {
+      "en": "ㄴ moves to 이 (연음) → [물로니죠].",
+      "ko": "ㄴ이 \"이\"로 넘어가요(연음) → [물로니죠]."
+     }
+    ],
+    [
+     "억양",
+     4,
+     "@t",
+     {
+      "en": "물론이죠 (“of course”) is a sure answer: the voice falls ↘.",
+      "ko": "확신하는 대답. 끝을 내려요 ↘."
+     }
+    ],
+    [
+     "쉼",
+     4,
+     "@p",
+     {
+      "en": "Long pause (||) – about 0.4 seconds in the audio.",
+      "ko": "길게 쉬어요 (||). 음성에서 약 0.4초."
+     }
+    ],
+    [
+     "발음 변화",
+     5,
+     13,
+     {
+      "en": "ㅁ moves to 이 (연음) → [체허미].",
+      "ko": "ㅁ이 \"이\"로 넘어가요(연음) → [체허미]."
+     }
+    ],
+    [
+     "강조",
+     5,
+     13,
+     {
+      "en": "New information: the Taekwondo experience (체험) – something you try yourself.",
+      "ko": "새 정보: \"체험\"."
+     }
+    ],
+    [
+     "발음 변화",
+     5,
+     14,
+     {
+      "en": "끝나면 → [끈나면]: ㅌ at the end of 끝 sounds like [ㄷ] (받침 대표음), and before ㄴ it turns into [ㄴ] (비음화).",
+      "ko": "받침 ㅌ은 [ㄷ], ㄴ 앞에서 [ㄴ] → [끈나면](비음화)."
+     }
+    ],
+    [
+     "억양",
+     5,
+     "@t",
+     {
+      "en": "-(으)면 (“once …”) leads to the next part: the voice goes up a little and stays up →.",
+      "ko": "\"-(으)면\"으로 이어져요. 살짝 올려서 유지 →."
+     }
+    ],
+    [
+     "쉼",
+     5,
+     "@p",
+     {
+      "en": "Short pause (|) after 끝나면 – about 0.15 seconds in the audio.",
+      "ko": "\"끝나면\" 뒤에서 짧게 쉬어요 (|). 약 0.15초."
+     }
+    ],
+    [
+     "강조",
+     6,
+     15,
+     {
+      "en": "New information: the next place, Jeonju (전주).",
+      "ko": "새 정보: 다음 장소 \"전주\"."
+     }
+    ],
+    [
+     "억양",
+     6,
+     "@t",
+     {
+      "en": "-아서 in 가서 (“go and …”) links two actions. No real pause here – only a tiny breath – then straight on →.",
+      "ko": "\"가서\"는 두 동작을 이어요. 거의 쉬지 않고 바로 →."
+     }
+    ],
+    [
+     "발음 변화",
+     7,
+     17,
+     {
+      "en": "In the audio 맛있는 sounds like [마신는]: ㅅ moves to 있 (연음), and ㅆ before ㄴ becomes [ㄴ] (비음화). [마딘는] is also standard.",
+      "ko": "음성은 [마신는]: ㅅ이 넘어가고(연음), ㅆ은 ㄴ 앞에서 [ㄴ](비음화). [마딘는]도 표준 발음이에요."
+     }
+    ],
+    [
+     "강조",
+     7,
+     17,
+     {
+      "en": "New information: delicious food.",
+      "ko": "새 정보: \"맛있는\" 음식."
+     }
+    ],
+    [
+     "발음 변화",
+     7,
+     18,
+     {
+      "en": "음식도 → [음식또]: after ㄱ, ㄷ becomes tense (경음화). You can hear a short catch before 또.",
+      "ko": "ㄱ 뒤에서 ㄷ이 된소리 → [음식또](경음화)."
+     }
+    ],
+    [
+     "발음 변화",
+     7,
+     19,
+     {
+      "en": "ㄱ moves to 어 (연음) → [머거요].",
+      "ko": "ㄱ이 \"어\"로 넘어가요(연음) → [머거요]."
+     }
+    ],
+    [
+     "억양",
+     7,
+     "@t",
+     {
+      "en": "먹어요 is a suggestion here (“let’s eat”). Like a statement, the voice falls ↘.",
+      "ko": "여기서 \"먹어요\"는 제안(청유). 평서문처럼 내려요 ↘."
+     }
+    ]
+   ],
+   "why": [
+    [
+     {
+      "en": "물론이죠 ↘ ||",
+      "ko": "물론이죠 ↘ ||"
+     },
+     {
+      "en": "A short, sure answer first. Then a pause.",
+      "ko": "짧고 확실한 대답 먼저, 그리고 쉬어요."
+     }
+    ],
+    [
+     {
+      "en": "끝나면 → | 전주에 가서 → 맛있는 음식도 먹어요 ↘",
+      "ko": "끝나면 → | 전주에 가서 → 맛있는 음식도 먹어요 ↘"
+     },
+     {
+      "en": "Three steps in order: when it ends → go to Jeonju → eat. Keep the voice up until the last verb.",
+      "ko": "순서대로 세 단계: 끝나면 → 전주에 가서 → 먹어요. 마지막 동사까지 높게 유지해요."
+     }
+    ],
+    [
+     {
+      "en": "[끈나면] · [마신는] · [음식또]",
+      "ko": "[끈나면] · [마신는] · [음식또]"
+     },
+     {
+      "en": "ㄴ-sounds before ㄴ (비음화), and a tense sound after ㄱ (경음화).",
+      "ko": "ㄴ 앞 비음화, ㄱ 뒤 경음화."
+     }
+    ]
+   ],
+   "idi": [
+    {
+     "de": "물론이죠",
+     "tag": {
+      "en": "Expression",
+      "ko": "표현"
+     },
+     "mean": {
+      "en": "Of course!",
+      "ko": "당연하다는 대답"
+     },
+     "note": {
+      "en": "Short for 물론이지요. A friendly, confident “yes”.",
+      "ko": "\"물론이지요\"의 준말."
+     },
+     "s": 4
+    },
+    {
+     "de": "-(으)면",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "if / when, once …",
+      "ko": "조건"
+     },
+     "note": {
+      "en": "끝나다 → 끝나면 (once it ends). 비가 오면 … = if it rains, …",
+      "ko": "끝나다 → 끝나면. 비가 오면 …"
+     },
+     "s": 5
+    },
+    {
+     "de": "-아/어서 (가서)",
+     "tag": {
+      "en": "Grammar",
+      "ko": "문법"
+     },
+     "mean": {
+      "en": "do A and then B (there)",
+      "ko": "앞의 동작 뒤에 이어서"
+     },
+     "note": {
+      "en": "전주에 가서 먹어요 = go to Jeonju and eat (there). The first action has to happen first.",
+      "ko": "전주에 가서 먹어요: 먼저 가고, 거기에서 먹어요."
+     },
+     "s": 6
+    },
+    {
+     "de": "그리고",
+     "tag": {
+      "en": "Word",
+      "ko": "어휘"
+     },
+     "mean": {
+      "en": "and (also) – at the start of a sentence",
+      "ko": "앞 문장에 덧붙일 때"
+     },
+     "note": {
+      "en": "Adds the next point: 물론이죠. 그리고 …",
+      "ko": "물론이죠. 그리고 …"
+     },
+     "s": 5
+    },
+    {
+     "de": "태권도 체험",
+     "tag": {
+      "en": "Vocabulary",
+      "ko": "어휘"
+     },
+     "mean": {
+      "en": "Taekwondo experience / try-out",
+      "ko": "태권도를 직접 해 보는 것"
+     },
+     "note": {
+      "en": "체험 = trying something yourself: 한복 체험, 김치 만들기 체험.",
+      "ko": "한복 체험, 김치 만들기 체험."
+     },
+     "s": 5
+    }
+   ],
+   "checks": [
+    {
+     "en": "물론이죠 fell at the end, then I paused.",
+     "ko": "\"물론이죠\" 끝을 내리고 쉬었다."
+    },
+    {
+     "en": "끝나면 sounded like [끈나면], with a short pause after it.",
+     "ko": "\"끝나면\"을 [끈나면]으로 읽고 짧게 쉬었다."
+    },
+    {
+     "en": "맛있는 [마신는] and 음식도 [음식또] were clear.",
+     "ko": "[마신는], [음식또]가 또렷했다."
+    },
+    {
+     "en": "먹어요 fell at the end ↘.",
+     "ko": "\"먹어요\" 끝을 내렸다 ↘."
+    }
+   ]
+  }
+ ],
+ "fullChecks": [
+  {
+   "en": "I read both roles – the question and the answer.",
+   "ko": "질문과 대답, 두 역할을 다 읽었다."
+  },
+  {
+   "en": "The question rose ↗ and the answer fell ↘.",
+   "ko": "질문은 올리고 ↗ 대답은 내렸다 ↘."
+  },
+  {
+   "en": "Pauses after 재미있겠다 and 물론이죠, and a short one after 끝나면.",
+   "ko": "\"재미있겠다\", \"물론이죠\" 뒤와 \"끝나면\" 뒤에서 쉬었다."
+  },
+  {
+   "en": "My recording is about as long as the model (about 11 seconds).",
+   "ko": "내 녹음 길이가 원어민과 비슷했다 (약 11초)."
+  }
+ ]
+}
